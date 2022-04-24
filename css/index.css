@@ -1,20 +1,12 @@
 .grid_container {
     display: grid;
-    column-gap:100px;
     background-color: aquamarine;
     padding: 30px;
-    width: 700px;
-    height: 160px;
     border-radius: 25px;
-    margin-left: 175px;
-    margin-right: auto;
-}
+    align-items: center;
+    grid-template-columns: 400px 1fr;
+    
 
-.grid_item1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
 }
 
 .grid_item2 {
@@ -28,14 +20,11 @@ hr {
     width: 50%;
     height: 1px;
     background-color: darkgray;
-    margin-left: 175px;
-    margin-right: auto;
 
 }
 
 main {
-    margin-left: 175px;
-    margin-right: auto;
+    margin: auto;
     background-color: lightgray;
     border-radius: 25px;
     padding: 30px;
@@ -45,10 +34,15 @@ main {
 
 
 footer {
-    margin-left: 175px;
+    margin: auto;
     margin-right: auto;
     background-color:  aquamarine;
     border-radius: 25px;
     padding: 30px;
+    width: 700px;
+}
+
+header {
+    margin: auto;
     width: 700px;
 }
