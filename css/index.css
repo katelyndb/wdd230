@@ -46,3 +46,7 @@ header {
     margin: auto;
     width: 700px;
 }
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
