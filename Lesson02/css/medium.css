@@ -1,3 +1,7 @@
-@media only screen (min-width: 32.5em) {
-    pass
+@media (min-width: 32.5em) {
+    h1 {color: green;}
+}
+
+@media (min-width: 64em) {
+    h1 {color: red;}
 }
