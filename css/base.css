@@ -1,4 +1,4 @@
-.grid_container {
+header, footer {
     display: grid;
     background-color: aquamarine;
     padding: 30px;
