@@ -10,7 +10,8 @@ header, footer {
     margin: auto;
     width: 700px;
     margin: auto;
-
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     
 
 }
@@ -20,17 +21,13 @@ img {
     box-shadow: 0 0 0 4px #fff;
 }
 
-.grid_item2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
+
 
 hr {
     width: 90%;
     height: 1px;
     background-color: #131152;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
 }
 
@@ -41,7 +38,13 @@ main {
     box-shadow: 0 0 0 4px #fff;
     padding: 30px;
     width: 700px;
+    text-shadow: 0 0 2px white;
+    
 
+}
+
+ul{
+    font-size: 22px;
 }
 
 
@@ -49,4 +52,16 @@ main {
 
 body {
     font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.design_grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 5px;
+    
 }
