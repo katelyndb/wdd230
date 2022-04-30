@@ -1,12 +1,23 @@
 header, footer {
     display: grid;
-    background-color: aquamarine;
     padding: 30px;
     border-radius: 25px;
     align-items: center;
     grid-template-columns: 400px 1fr;
+    background-image: url("../images/Stardew_Background.JPG");
+    background-color: #91FEDE;
+    box-shadow: 0 0 0 4px #fff;
+    margin: auto;
+    width: 700px;
+    margin: auto;
+
     
 
+}
+
+img {
+    border-radius: 25px;
+    box-shadow: 0 0 0 4px #fff;
 }
 
 .grid_item2 {
@@ -17,35 +28,24 @@ header, footer {
 }
 
 hr {
-    width: 50%;
+    width: 90%;
     height: 1px;
-    background-color: darkgray;
+    background-color: #131152;
 
 }
 
 main {
     margin: auto;
-    background-color: lightgray;
+    background-color: #4EC8F1;
     border-radius: 25px;
+    box-shadow: 0 0 0 4px #fff;
     padding: 30px;
     width: 700px;
 
 }
 
 
-footer {
-    margin: auto;
-    margin-right: auto;
-    background-color:  aquamarine;
-    border-radius: 25px;
-    padding: 30px;
-    width: 700px;
-}
 
-header {
-    margin: auto;
-    width: 700px;
-}
 
 body {
     font-family: 'Libre Baskerville', serif;
