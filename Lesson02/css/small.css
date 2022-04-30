@@ -1,10 +1,9 @@
 @media (min-width: 0em) {
-    main {
-        color: yellow;
-    }
+
     div.design_grid_container {
         grid-template-columns: 1fr;
         grid-gap: 10px;
         padding: 5px;
     }
+
 }

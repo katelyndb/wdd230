@@ -1,7 +1,5 @@
 @media (min-width: 20em) {
-    main {
-        color: orange;
-    }
+
     div.design_grid_container {
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
