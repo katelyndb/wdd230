@@ -1,0 +1,7 @@
+@media (max-width: 50em) {
+
+    nav {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

@@ -1,0 +1,53 @@
+main {
+    margin: auto;
+    background-color: #94849B;
+    box-shadow: 0 0 0 4px #fff;
+    padding: 30px;
+
+}
+#Header_1, h1 {
+    font-family: Nanum Gothic Coding, monospace;
+}
+#Header_2_3, h2, h3  {
+    font-family: Nanum Gothic, sans-serif;
+}
+
+nav {
+    display: grid;
+    padding: 30px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #2E3534;
+    margin: auto;
+    flex: 1;
+}
+header {
+    margin: auto;
+    display: grid;
+    align-items: center;
+    color: #470024;
+}
+p{
+    font-family: Tahoma, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: #E0F2E9;
+  }
+  
+/* visited link */
+a:visited {
+    color: #94849B;
+  }
+  
+/* mouse over link */
+a:hover, a:active {
+    color: #A8763E;
+  }
+
+
+header, nav, main {
+    max-width: 1000px;
+    margin: auto;
+}
