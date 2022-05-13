@@ -1,0 +1,29 @@
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    max-width: 500px;
+}
+
+.navigation li {
+    list-style: none;
+    text-decoration: none;
+    display: none;
+
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.responsive li {
+    display: block;
+}

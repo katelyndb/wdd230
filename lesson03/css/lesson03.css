@@ -1,29 +1,27 @@
 main {
-    margin: auto;
+    margin: 0 auto;
     background-color: #94849B;
     box-shadow: 0 0 0 4px #fff;
     padding: 30px;
 
 }
-#Header_1, h1 {
+#header_1, h1 {
     font-family: Nanum Gothic Coding, monospace;
 }
-#Header_2_3, h2, h3  {
+#header_2_3, h2, h3  {
     font-family: Nanum Gothic, sans-serif;
 }
 
 nav {
     display: grid;
-    padding: 30px;
+    padding: 1rem;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #2E3534;
-    margin: auto;
-    flex: 1;
+    margin: 0 auto;
 }
 header {
-    margin: auto;
-    display: grid;
+    margin:  0 auto;
     align-items: center;
     color: #470024;
 }
@@ -49,5 +47,5 @@ a:hover, a:active {
 
 header, nav, main {
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
