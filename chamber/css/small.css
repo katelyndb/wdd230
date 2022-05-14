@@ -8,7 +8,7 @@ nav {
 
 .navigation li {
     list-style: none;
-    text-decoration: none;
+    background-color: lightblue;
     display: none;
 
 }
@@ -22,8 +22,39 @@ nav {
     padding: .75rem;
     text-align: center;
     text-decoration: none;
+    font-size: 22px;
 }
 
 .responsive li {
     display: block;
 }
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+
+  }
+  .grid-container > div {
+    background-color: lightgray;
+    max-width: 500px;
+    text-align: center;
+    
+  }
+
+
+
+  header, footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: lightpink;
+  }

@@ -1,9 +1,57 @@
 
-    nav {
-        grid-template-columns: 1fr ;
-        display: block;
-        padding: 1rem;
-        font-size: 1.2rem;
+nav {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        background-color: #2E3534;
+        padding: 30px;
         text-decoration: none;
-        
+        align-items: center;
+        margin: 0 auto;
+        line-height: 60px;
+    }
+
+
+    main {
+        margin: 0 auto;
+        background-color: #94849B;
+        box-shadow: 0 0 0 4px #fff;
+        padding: 30px;
+    
+    }
+    #header_1, h1 {
+        font-family: Nanum Gothic Coding, monospace;
+    }
+    #header_2_3, h2, h3  {
+        font-family: Nanum Gothic, sans-serif;
+    }
+
+    header {
+        margin:  0 auto;
+        align-items: center;
+        color: #470024;
+    }
+    p{
+        font-family: Tahoma, sans-serif;
+    }
+    
+    /* unvisited link */
+    a:link {
+        color: #E0F2E9;
+      }
+      
+    /* visited link */
+    a:visited {
+        color: #94849B;
+      }
+      
+    /* mouse over link */
+    a:hover, a:active {
+        color: #A8763E;
+      }
+    
+    
+    header, nav, main {
+        max-width: 1000px;
+        margin: 0 auto;
     }

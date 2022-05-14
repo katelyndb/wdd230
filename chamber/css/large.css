@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 50em) {
     .navigation {
         display: flex;
     }
@@ -11,10 +11,6 @@
     }
 
     .navigation li a {
-        color: purple;
+        color: yellow;
     }
-    .grid-container {
-        grid-template-columns: auto;
-        grid-template-rows: 100% 100% 100% 100% 70% 30%;
-      }
 }
