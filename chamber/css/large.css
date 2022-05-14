@@ -9,8 +9,61 @@
         display: block;
         flex: 1 1 auto;
     }
+    /* unvisited link */
+a:link {
+    color: #E0F2E9;
+  }
+  
+/* visited link */
+a:visited {
+    color: #E0F2E9;
+  }
+  
+/* mouse over link */
+a:hover, a:active {
+    color: #470024;
+  }
 
-    .navigation li a {
-        color: yellow;
+    
+    
+
+
+    #hero-placeholder {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
+    #events-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #weather-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #news-placeholder {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #spotlight-placeholder {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    #join-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    
 }

@@ -12,13 +12,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
-    <script src="js\menu.js"></script>
+    <script src="js\chamber.js"></script>
     <title>Lilburn Area Chamber of Commerce: Home</title>
 </head>
 <body>
-    <header>       
-                <img>
+    <header>
+        <div>
+        <img src="images/LACC_icon.png" alt="Icon for LACC" height="125px">
+        </div>
+        <div>
                 <h1>Lilburn Area Chamber of Commerce</h1>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="Icon for LACC" height="50px">
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/explore" target="_blank">
+                <img src="images/twitter.png" alt="Icon for LACC" height="50px">
+                </a>
+            </div>
                 <nav>
                     <ul class="navigation">
                         <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
@@ -28,36 +42,42 @@
                         <li><a href="index.html">Contact</a></li>
                     </ul>
                 </nav>
-                <img>
-                <img>
+                
                 <span class="current-date"></span>
     </header>
     
     <main class="grid-container">
-        <div class="grid-placeholder">
+        <div id="hero-placeholder">
             <p>Hero with Site Name and Call to Action</p>
         </div>
-        <div class="grid-placeholder">
+        <div id="events-placeholder">
             <p>Event</p>
         </div>
-        <div class="grid-placeholder">
+        <div id="weather-placeholder">
             <p>Weather</p>
         </div>
-        <div class="grid-placeholder">
+        <div id="news-placeholder">
             <p>News Release</p>
         </div>
-        <div class="grid-placeholder">
+        <div id="spotlight-placeholder">
             <p>Spotlight</p>
+        </div>
+        <div id="join-placeholder">
+            <p>Join</p>
         </div>
         
     </main>
     <footer>
-        <img>
-        <p>concact info</p>
-        <p>map? what</p>
-        <span>copyright</span>
-        <p>site name</p>
-        <span>mod date</span>
+        <div>
+        <img src="images/LACC_icon.png" alt="Icon for LACC" height="50px">
+        </div>
+        <span id="copyright"></span>
+        <p>Lilburn Chamber | Katie Blunck | WDD230 Project | </p>
+        <span id="copyright"></span>
+        <div>
+        <span> Last Modified:</span>
+        <span id="current_date"></span>
+        </div>
 
     </footer>  
 </body>

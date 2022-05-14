@@ -10,11 +10,55 @@
         flex: 1 1 auto;
     }
 
-    .navigation li a {
-        color: purple;
+    #hero-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
-    .grid-container {
-        grid-template-columns: auto;
-        grid-template-rows: 100% 100% 100% 100% 70% 30%;
-      }
+    #events-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #weather-placeholder {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #news-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #spotlight-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #join-placeholder {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    /* unvisited link */
+a:link {
+    color: #E0F2E9;
+  }
+  
+/* visited link */
+a:visited {
+    color: #E0F2E9;
+  }
+  
+/* mouse over link */
+a:hover, a:active {
+    color: #470024;
+  }
+   
 }
