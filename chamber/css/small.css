@@ -54,6 +54,9 @@ nav {
     
     
   }
+  #hero-placeholder {
+      background-image: url("images/Optimized_Lilburn_Image.jpeg");
+  }
 
   header {
     margin:  0 auto;
@@ -68,7 +71,6 @@ nav {
     background-color:  #94849B;
     color: #470024;
     display: flex;
-    flex-direction: row;
     padding: 50px;
   }
 
