@@ -55,7 +55,9 @@ nav {
     
   }
   #hero-placeholder {
-    position: relative;
+    background-image: url("../images/lilburn.jpeg");
+    background-position: center;
+    background-size: cover;
   }
 
   header {
