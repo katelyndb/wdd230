@@ -18,8 +18,11 @@
 <body>
     <header>
     <section id="heading_items">
-        <img src="images/LACC_icon.png" alt="Icon for LACC" height="125">
-        <h1>Lilburn Area Chamber of Commerce</h1>
+        <picture class="logo">
+            <img src="images/LACC_icon.png" alt="Icon for LACC" height="100">
+        </picture>
+        <h1 class="main_heading">Lilburn Area Chamber of Commerce</h1>
+    </section>
         <div id="social_icons">
         <a href="https://www.facebook.com/" target="_blank">
         <img src="images/facebook.png" alt="Icon for LACC" height="50">
@@ -28,6 +31,7 @@
         <img src="images/twitter.png" alt="Icon for LACC" height="50">
         </a>
         </div>
+        
                 <nav>
                     <ul class="navigation">
                         <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
@@ -37,50 +41,56 @@
                         <li><a href="index.html">Contact</a></li>
                     </ul>
                 </nav>
-        </section>
+        
                 
-                <p class="current-date"></p>
+                <p id="header_date"></p>
     </header>
     
     <main class="grid-container">
         <div id="hero-placeholder">
-            <p>Hero with Site Name and Call to Action</p>
+            <h2>Hero with Site Name and Call to Action</h2>
         </div>
         <div id="events-placeholder">
-            <p>Event</p>
+            
             <img src="images/drums.png" alt="Icon for Drums; drumset" height="50px">
+            <h2>Event</h2>
         </div>
         <div id="weather-placeholder">
-            <p>Weather</p>
+            
             <img src="images/weather.png" alt="Icon for Weather; cloud and sun" height="50px">
+            <h2>Weather</h2>
         </div>
         <div id="news-placeholder">
-            <p>News Release</p>
+            <h2>News Release</h2>
         </div>
         <div id="spotlight-placeholder">
-            <p>Spotlight</p>
-            <div id="spotlight1">
-                <p></p>
-                <img src="images/code.png" alt="Icon for Code; code brackets" height="50px">
+            <div id="spotlight-heading">
+            <h2>Spotlight</h2>
             </div>
-            <div od="spotlight2">
-                <p></p>
+            <div class="spotlight_item">
+                <img src="images/code.png" alt="Icon for Code; code brackets" height="50px">
+                <h3>Spotlight 1</h3>
+                
+            </div>
+            <div class="spotlight_item">
                 <img src="images/bake.png" alt="Icon for Bake; bread in an oven" height="50px">
+                <h3>Spotlight 2</h3>
+                
             </div>
         </div>
         <div id="join-placeholder">
-            <p>Join</p>
+            <h2>Join</h2>
         </div>
         
     </main>
     <footer>
-        <div>
+        <div >
         <img src="images/LACC_icon.png" alt="Icon for LACC" height="50px">
         </div>
         <p id="copyright"></p>
-        <p> | Lilburn Chamber || WDD230 Project | </p>
+        <p> &nbsp; Lilburn Chamber | WDD230 Project |  </p>
         </div>
-        <p> | Last Modified: </p>
+        <p>  &nbsp; Last Modified: &nbsp; </p>
         <p id="current_date"></p>
         <script src="js\chamber.js"></script>
 

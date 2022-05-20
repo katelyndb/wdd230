@@ -47,12 +47,19 @@ nav {
   }
   .grid-container > div {
       
-    background-color: #E0F2E9;
+    background-color: #cac2cf;
     text-align: left;
-    padding: 10px;
-    height: 95%
+    padding: 30px;
     
     
+    
+    
+  }
+  .grid-container img {
+      border-radius: 2px;
+      outline: 2px solid #CCC;
+      float: right;
+      
   }
   #hero-placeholder {
     background-image: url("../images/lilburn.jpeg");
@@ -60,36 +67,100 @@ nav {
     background-size: cover;
   }
 
-  header {
-    margin:  0 auto;
-    align-items: center;
-    color: #470024;
+
+#social_icons {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-content: right;
+    justify-content: right;
+    text-align: right;
 }
 
-  header, footer {
+nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+}
+
+
+#header_date {
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #7a6c80;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+#spotlight-placeholder{
+    display: grid;
+    grid-gap: 20px;
+}
+#spotlight-placeholder div {
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.spotlight_item {
+    padding: 20px;
+    background-color: white;
+    
+}
+
+
+header{
+    
+    align-content: center;
+    background-color:  #94849B;
+    color: #470024;
+    padding: 50px;
+    display: grid;
+
+}
+
+
+footer {
     align-content: center;
     justify-content: center;
     text-align: center;
     background-color:  #94849B;
     color: #470024;
     padding: 50px;
-  }
+}
 
 /* unvisited link */
-a:link {
+nav a:link {
     color: #E0F2E9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #94849B;
   }
   
 /* visited link */
-a:visited {
+nav a:visited {
     color: #E0F2E9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #94849B;
   }
   
 /* mouse over link */
-a:hover, a:active {
+nav a:hover, a:active {
     color: #470024;
+    background-color: #a899b0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4d4452;
+    
   }
 
+h2, h3 {
+    font-family: Nanum Gothic Coding, monospace;
+    color: #470024;
+}
 
 
 h1 {
@@ -117,8 +188,6 @@ footer div{
     padding: 20px;
 }
 
-
-  
 
   #hero-placeholder {
         grid-row-start: 1;
