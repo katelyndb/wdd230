@@ -61,6 +61,10 @@ nav {
       float: right;
       
   }
+  .grid-container a{
+      color: #470024;
+      font-weight: bold;
+  }
   #hero-placeholder {
     background-image: url("../images/lilburn.jpeg");
     background-position: center;
@@ -110,6 +114,19 @@ nav {
     
 }
 
+#notif_banner {
+    color: #E0F2E9;
+    font-family: Nanum Gothic Coding, monospace;
+    
+    background-color: #2E3534;
+    position: fixed;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    display: None;
+    
+}
 
 header{
     
@@ -156,8 +173,7 @@ nav a:hover, a:active {
     border-color: #4d4452;
     
   }
-
-h2, h3 {
+.grid-container h2, h3{
     font-family: Nanum Gothic Coding, monospace;
     color: #470024;
 }
@@ -166,7 +182,7 @@ h2, h3 {
 h1 {
     font-family: Nanum Gothic Coding, monospace;
 }
-p span  {
+p, span  {
     font-family: Nanum Gothic, sans-serif;
 }
 
