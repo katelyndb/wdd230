@@ -50,14 +50,12 @@ nav {
     background-color: #E0F2E9;
     text-align: left;
     padding: 10px;
-    height: 95%;
+    height: 95%
     
     
   }
   #hero-placeholder {
-    background-image: url("../images/lilburn.jpeg");
-    background-position: center;
-    background-size: cover;
+    position: relative;
   }
 
   header {
@@ -72,7 +70,6 @@ nav {
     text-align: center;
     background-color:  #94849B;
     color: #470024;
-    display: flex;
     padding: 50px;
   }
 

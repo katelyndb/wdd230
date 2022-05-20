@@ -9,6 +9,9 @@
         display: block;
         flex: 1 1 auto;
     }
+    footer p {
+        position: relative;
+    }
 
     #hero-placeholder {
         grid-column-start: 1;
