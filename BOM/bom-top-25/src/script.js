@@ -12,14 +12,13 @@ button.addEventListener("click", () => {
 	const listButton = document.createElement("button");
 	//Adds the information to the box
 	alert (input.value)
-	if (input.value != "")and (input.value != " "){
+	if ((input.value != "") && (input.value != " ")){
 		listItem.appendChild(listText);
 		listText.textContent = myItem;
 		listItem.appendChild(listButton);
 		listButton.textContent = "❌";
 		list.appendChild(listItem);
-	}
-	else {
+	} else {
 		alert("Enter a value please!")
 	}
 
