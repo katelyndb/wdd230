@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
 	const listText = document.createElement("span");
 	const listButton = document.createElement("button");
 	//Adds the information to the box
-	alert (input.value)
+	alert(myItem);
 	if ((input.value != "") && (input.value != " ")){
 		listItem.appendChild(listText);
 		listText.textContent = myItem;
@@ -19,7 +19,7 @@ button.addEventListener("click", () => {
 		listButton.textContent = "❌";
 		list.appendChild(listItem);
 	} else {
-		alert("Enter a value please!")
+		alert("Enter a value please!");
 	}
 
 	//If the X button is pressed, removes the entire thing
