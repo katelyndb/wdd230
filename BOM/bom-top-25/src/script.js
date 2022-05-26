@@ -12,7 +12,7 @@ button.addEventListener("click", () => {
 	const listButton = document.createElement("button");
 	//Adds the information to the box
 	alert(myItem);
-	if ((input.value != "") && (input.value != " ")){
+	if ((myItem != "") && (myItem != " ")){
 		listItem.appendChild(listText);
 		listText.textContent = myItem;
 		listItem.appendChild(listButton);
