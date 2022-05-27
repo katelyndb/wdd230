@@ -13,7 +13,7 @@ document.getElementById('copyright').textContent = copyright;
 
 const dayOfWeek = new Date().getDay();
 var notifBanner = document.getElementById('notif_banner');
-if (dayOfWeek == 1 || dayOfWeek == 2) {
+if (dayOfWeek == 1 || dayOfWeek == 2 ) {
     notifBanner.style.display = 'block';
 }
 
