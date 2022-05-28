@@ -33,6 +33,7 @@ nav a:hover, a:active {
 
     #hero-placeholder {
         background-image: url("../images/large-wdd230-org.jpg");
+        
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 1;
