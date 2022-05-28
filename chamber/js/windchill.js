@@ -1,4 +1,4 @@
-
+alert("Hello! I am an alert box!!");
 temp = 60;
 windSpeed = 15;
 
