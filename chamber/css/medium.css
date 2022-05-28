@@ -14,7 +14,6 @@
     }
 
     #hero-placeholder {
-        background-image: url("../images/medium-wdd230-org.jpg");
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;

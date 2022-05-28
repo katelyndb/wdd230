@@ -1,8 +1,8 @@
-alert("Hello! I am an alert box!!");
-temp = 60;
+
+temp = 32;
 windSpeed = 15;
 
-if ((temp <= 50)&& (windSpeed > 3 )){ 
+if ((temp <= 50) && (windSpeed > 3 )){ 
     calculateWindChill(temp, windSpeed);
 }
 else {
@@ -13,9 +13,9 @@ else {
 function calculateWindChill(temp, windSpeed){
 temp = parseInt(temp);
 windSpeed = parseInt(windSpeed);
-windChillFactor = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(windSpeed, .16))+ (.4275 * temp * Math.pow(windSpeed, .16));
+windChillFactor = (35.74 + (0.6215 * temp) - (35.75 * Math.pow(windSpeed, 0.16))+ (0.4275 * temp * Math.pow(windSpeed, 0.16))).toFixed(0);
 }
 
-document.getElementById('windChill').textContent = windChillFactor;
-document.getElementById('temp').textContent =`${temp} ${<span>&#176;</span>} F`;
-document.getElementById('windSpeed').textContent = `${windSpeed} mph`;
+document.getElementById('windChill').textContent = `Wind Chill: ${windChillFactor}`;
+document.getElementById('temp').textContent =`${temp} F`;
+document.getElementById('windSpeed').textContent = `Wind Speed: ${windSpeed} mph`;
