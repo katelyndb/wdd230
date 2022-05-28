@@ -66,9 +66,12 @@ nav {
       font-weight: bold;
   }
   #hero-placeholder {
-    background-image: url("../images/lilburn.jpeg");
-    background-position: center;
+    background-image: url("../images/small-wdd230-org.jpg");
     background-size: cover;
+    /*background-image: url("../images/lilburn.jpeg"); */
+    max-height: 333px;
+    min-width: 500px;
+    
   }
 
 
