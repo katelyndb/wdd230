@@ -55,9 +55,10 @@
         <div id="hero-placeholder">
             <h2>Welcome to Thrillburn</h2>
             <picture id="hero_background">
-                <img src="images/small-wdd230-org.jpg" alt="Image for WDD230 W06 Assignment">
-                <!--background-image: url("../images/medium-wdd230-org.jpg"); -->
-                <!--       background-image: url("../images/large-wdd230-org.jpg");--> 
+                <source srcset="images/large-wdd230-org.jpg" media="(min-width: 1000px)">
+                <source srcset="images/medium-wdd230-org.jpg" media="(min-width: 650px)">
+                <source srcset="images/small-wdd230-org.jpg" media="(min-width: 100px)">
+                <img src="images/small-wdd230-org.jpg" alt="Replacement image for W06 WDD230">
             </picture>
         </div>
         <div id="events-placeholder">

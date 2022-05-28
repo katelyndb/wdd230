@@ -65,11 +65,8 @@ nav {
       font-weight: bold;
   }
   #hero-placeholder {
-    
-    background-size: cover;
     /*background-image: url("../images/lilburn.jpeg"); */
-    max-height: 333px;
-    min-width: 500px;
+    width: 100%;
     
   }
 
@@ -215,6 +212,7 @@ footer div{
 #hero_background {
     align-self: center;
     height: auto;
+    
     
     
 }
