@@ -53,7 +53,6 @@ nav {
     
     
     
-    
   }
   .grid-container img {
       border-radius: 2px;
@@ -66,11 +65,8 @@ nav {
       font-weight: bold;
   }
   #hero-placeholder {
-    background-image: url("../images/small-wdd230-org.jpg");
-    background-size: cover;
     /*background-image: url("../images/lilburn.jpeg"); */
-    max-height: 333px;
-    min-width: 500px;
+    width: 100%;
     
   }
 
@@ -78,7 +74,6 @@ nav {
 #social_icons {
     grid-column-start: 3;
     grid-column-end: 4;
-    align-content: right;
     justify-content: right;
     text-align: right;
 }
@@ -157,6 +152,7 @@ nav a:link {
     border-style: solid;
     border-width: 1px;
     border-color: #94849B;
+    
   }
   
 /* visited link */
@@ -165,6 +161,7 @@ nav a:visited {
     border-style: solid;
     border-width: 1px;
     border-color: #94849B;
+    background-color:#463d4a;
   }
   
 /* mouse over link */
@@ -184,6 +181,7 @@ nav a:hover, a:active {
 
 h1 {
     font-family: Nanum Gothic Coding, monospace;
+    float: right;
 }
 p, span  {
     font-family: Nanum Gothic, sans-serif;
@@ -207,9 +205,30 @@ footer div{
     padding: 20px;
 }
 
+#heading_items {
+    padding: 30px;
+}
+
+#hero_background {
+    align-self: center;
+    height: auto;
+    
+    
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 100;
+    padding: 0;
+}
 
   #hero-placeholder {
+      
         grid-row-start: 1;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: auto;
         
     }
     #events-placeholder {
