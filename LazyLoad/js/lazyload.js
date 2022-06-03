@@ -1,6 +1,63 @@
-const imagesToLoad = document.querySelectorAll("img[data-src]");
-const imgOptions = {
-};
+const images = document.querySelectorAll("[data-src]");
+
+function preloadImage(img) {
+    const src = img.getAttribute("data-src");
+    if (!src) {
+        return;
+    }
+    img.src = src;
+}
+
+const imgOptions = {};
+
+const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            preloadImage(entry.target);
+            imgObserver.unobserve(entry.target);
+        }
+    });
+
+}, imgOptions)
+
+
+images.forEach (image => {
+    imgObserver.observe(image);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// WHAT THE FLIP FLOP
+
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {image.removeAttribute('data-src');};
@@ -14,7 +71,7 @@ if('IntersectionObserver' in window) {
             if(item.isIntersecting) {
                 loadImages(item.target);
                 // Once the image is loaded, stop observing it.
-                imgObserver.unobserve(item.target)
+                imgObserver.unobserve(item.target);
             }
         })
     }, imgOptions);

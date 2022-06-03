@@ -1,3 +1,5 @@
-pic_column > image {
-    width: 100px;
+img {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
 }
