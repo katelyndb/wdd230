@@ -182,7 +182,16 @@ nav a:hover, a:active {
 h1 {
     font-family: Nanum Gothic Coding, monospace;
     float: right;
+    text-decoration: none;
 }
+#main_heading a:link, a:visited, a:unvisited {
+    color: #470024;
+
+}
+#main_heading a:hover, a:active  {
+    color: #470024;
+}
+
 p, span  {
     font-family: Nanum Gothic, sans-serif;
 }
