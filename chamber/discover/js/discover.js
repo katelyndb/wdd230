@@ -1,7 +1,7 @@
-let n = localStorage.getItem('on_load_counter');
+let n = localStorage.getItem('n');
 
 if (n == null){
     n = 0;
 }
-
-document.getElementById('user_visits').innerHTML = n;
+localStorage.setItem('n', ++n);
+document.getElementById('user_visits').innerHTML = localStorage.getItem('n');
