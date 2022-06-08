@@ -1,5 +1,6 @@
 let n = localStorage.getItem('n');
-let prevdate = localStorage.getItem('prevdate');
+let prevday = localStorage.getItem('prevday');
+let prevmonth = localStorage.getItem('prevmonth');
 
 if (n == null){
     n = 0;
@@ -16,9 +17,11 @@ var datetime = "Last Sync: " + currentdate.getDate() + "/"
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds();
 
-difference =    prevdate;
+difference = prevmonth;
 
 
-localStorage.setItem('prevdate', currentdate);
+
+localStorage.setItem('prevday', currentdate.getDate());
+localStorage.setItem('prevmonth', currentdate.getMonth()+1);
 
 document.getElementById('user_visited').innerHTML = difference;
