@@ -3,3 +3,24 @@ img {
     width: 1000px;
     margin: 0 auto;
 }
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
