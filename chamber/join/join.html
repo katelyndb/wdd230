@@ -55,19 +55,23 @@
         <form id="formGrid">
             <input type="hidden" id="date" name="date" value="CurrentTime"> 
             <input type="hidden" id="time" name="time" value="CurrentDate">
-            <div>
+            <div id="formpersonal">
+                <legend>Personal Information</legend>
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" required><br>
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname" required><br>
             </div>
-            <div>
+            <div id="formcontact">
+                <legend>Contact Information</legend>
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required placeholder="janedoe@gmail.com"><br>
                 <label for="phone">Phone Number:</label><br>
                 <input type="tel" id="phone" name="phone" required><br>
             </div>
-            <div>
+            
+            <div id="formbusiness">
+                <legend>Business Information</legend>
                 <label for="bname">Business Name/Title:</label><br>
                 <input type="text" id="bname" name="bname" required><br>
                 <label for="bposition">Business Position Title:</label><br>
@@ -75,20 +79,31 @@
                 <label for="bdesc">Business Description:</label><br>
                 <input type="textarea" id="bdesc" name="bdesc" required><br>
             </div>
-            <div>
+            <div id="formmember">
+                <legend>Membership Information</legend>
                 <label for="cars">Choose a membership level:</label>
-                <select name="cars" id="cars" form="carform">
-                    <option value="nonp">NP Membership</option>
-                    <option value="bronze">Bronze Membership</option>
-                    <option value="silver">Silver Membership</option>
-                    <option value="gold">Gold Membership</option>
-                </select><br>
-           
+                <br>
+                <div id="memberchoices">
+                    <div id="nonpblock">
+                        <label for="nonp">Non Profit Membership</label><br>
+                        <input type="radio" id="nonp" name="membership" value="nonp">
+                    </div>
+                    <div id="bronzeblock">
+                        <label for="bronze">Bronze Level Membership</label><br>   
+                        <input type="radio" id="bronze" name="membership" value="bronze">
+                    </div>
+                    <div id="silverblock">
+                        <label for="silver">Silver Level Membership</label><br>
+                        <input type="radio" id="silver" name="membership" value="silver">
+                    </div>
+                    <div id="goldblock">
+                        <label for="gold">Gold Level Membership</label><br>
+                        <input type="radio" id="gold" name="membership" value="gold">
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>IMAGES PLACEHOLDER</p>
-            </div>
-            <div>
+            
+            <div id="formsubmit">
                 <input type="submit" id="submitform" name="submitform" value="Join!">
             </div>
         </div>

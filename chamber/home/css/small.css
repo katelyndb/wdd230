@@ -295,7 +295,7 @@ picture img{
     grid-gap: 20px;
 }
 
-main p, main form {
+main p, main div {
     font-size: 30;
     background-color: #fff;
     padding: 15px;
@@ -316,10 +316,16 @@ main p, main form {
 
 label {
     display:flex;
+    font-family: Nanum Gothic Coding, monospace;
+    color: #470024;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 input {
-    margin-bottom: 30px;
+    
+    margin-bottom: 10px;
 }
 #bdesc {
     padding: 15px;
@@ -327,8 +333,84 @@ input {
 
 #formGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 15px;
-    border-bottom: #2E3534;
+    grid-gap: 20px;
+
+}
+#formGrid div{
+    padding: 20px;
+}
+
+
+#formpersonal {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+#formcontact {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#formbusiness {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#formmember {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#formsubmit {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+legend 
+{
+    background-color: #7a6c80;
+    color: white;
+    padding: 5px 5px;
+}
+
+
+#submitform {
+    background: #463d4a;
+    color: white;
+    border-style: outset;
+    border-color: #2E3534;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    font-size: 30px;
+    width: 100%;
+    }
+#goldblock
+{
+    border-color: gold;
+    border-style: dashed;
+    border-width: 15px;
+}
+#silverblock
+{
+    border-color: silver;
+    border-style: dashed;
+    border-width: 15px;
+}
+#bronzeblock
+{
+    border-color: rgb(90, 61, 8);
+    border-style: dashed;
+    border-width: 15px;
+}
+#nonpblock 
+{
+    border-color: purple;
+    border-style: dashed;
+    border-width: 15px;
 }
