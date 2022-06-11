@@ -76,3 +76,17 @@ picture img{
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+.division {
+    background-color: white;
+    display: inline-block;
+
+}
+.division picture:hover {
+    opacity: .5;
+    height: 5px;
+}
+img:hover {
+    opacity: .5;
+    height: 5px;
+}
