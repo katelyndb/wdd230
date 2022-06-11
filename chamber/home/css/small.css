@@ -295,7 +295,7 @@ picture img{
     grid-gap: 20px;
 }
 
-main p {
+main p, main form {
     font-size: 30;
     background-color: #fff;
     padding: 15px;
