@@ -260,3 +260,57 @@ footer div{
         display: none;
     }
 }
+
+
+
+
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.division_left picture:hover {
+    opacity: .9;
+    filter: drop-shadow(8px 8px 10px gray);
+    filter: hue-rotate(20deg);
+}
+.division_right picture:hover {
+    opacity: .9;
+    filter: drop-shadow(8px 8px 10px gray);
+    filter: hue-rotate(20deg);
+}
+.division_right {
+    display: grid;
+    grid-template-columns: .25fr 1fr 1fr .25fr;
+    grid-gap: 20px;
+}
+.division_left {
+    display: grid;
+    grid-template-columns: .25fr 1fr 1fr .25fr;
+    grid-gap: 20px;
+}
+
+main p {
+    font-size: 30;
+    background-color: #fff;
+    padding: 15px;
+    font-family: Nanum Gothic, sans-serif;
+}
+#greenway_text  {
+    font-size: 30;
+    background-color: #fff;
+    padding: 30px;
+    font-family: Nanum Gothic, sans-serif;
+}
+
+#visits, #last_visited {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
