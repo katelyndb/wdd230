@@ -77,4 +77,14 @@ nav a:hover, a:active {
     color: #470024;
     padding: 1px;
     }
+    .division_left picture:hover {
+        opacity: .9;
+        filter: drop-shadow(8px 8px 10px gray);
+        filter: hue-rotate(20deg);
+    }
+    .division_right picture:hover {
+        opacity: .9;
+        filter: drop-shadow(8px 8px 10px gray);
+        filter: hue-rotate(20deg);
+    }
 }
