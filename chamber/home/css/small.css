@@ -314,3 +314,21 @@ main p, main form {
     text-align: center;
 }
 
+label {
+    display:flex;
+}
+
+input {
+    margin-bottom: 30px;
+}
+#bdesc {
+    padding: 15px;
+}
+
+#formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+    border-bottom: #2E3534;
+}
