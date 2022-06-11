@@ -1,0 +1,42 @@
+/* spacing */
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+  }
+  
+  
+  th, td {
+    padding: 20px;
+    border: 1px solid black;
+  }
+
+#metgoal,  th 
+{
+    background-color: rgb(109, 47, 241);
+    color: white;
+    
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(252, 240, 255);
+  }
+tr:nth-child(odd)
+{
+    background-color: rgb(224, 197, 255);
+}
+
+#table_title 
+{
+    background-color: rgb(52, 11, 92);
+}
+#bfriday 
+{
+    text-align: center;
+    vertical-align: middle;
+}

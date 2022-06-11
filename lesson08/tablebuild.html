@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="./css/tablebuild.css" rel="stylesheet" type="text/css">
+    <title>Table Build Katie Blunck</title>
 </head>
 <body>
+<table>
+<thead>
+    <tr>
+        <th colspan="3" id="table_title"> ACME Wildwest</th>
+    </tr>
+    <tr>
+        <th scope="col" id="period" >Period</th>
+        <th scope="col" id="sales">Sales</th>
+        <th scope="col" id="goal">Sales Goal</th>
+      </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>August</td>
+        <td>$ 3,590</td>
+        <td>$ 4,000</td>
+    </tr>
+    <tr>
+        <td>September</td>
+        <td>$ 4,420</td>
+        <td>$ 5,000</td>
+    </tr>
+    <tr>
+        <td>October</td>
+        <td>$ 4,870</td>
+        <td>$ 5,000</td>
+    </tr>
+    <tr>
+        <td>November</td>
+        <td>$ 8,610</td>
+        <td id="metgoal">$ 7,500</td>
+    </tr>
+    <tr id="bfriday">
+        <td><i>Black Friday</i></td>
+        <td colspan="2" >$ 3,200</td>
+    </tr>
+    <tr>
+        <td>December</td>
+        <td>$ 6,820</td>
+        <td>$ 7,500</td>
+    </tr>
+
+</tbody>
+<tfoot>
+    <tr>
+        <th scope="row" colspan="3">Compliled 12.20.2020 by me</th>
+
+    </tr>
+
+</tfoot>
+</table>
     <!--  Create a "lesson-8" folder.
 
 ► Create an HTML file named "tablebuild.html" in the lesson folder.
