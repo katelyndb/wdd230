@@ -1,8 +1,10 @@
-const URL = '../data.json'; 
+
 const cards = document.querySelector('.cards');
 
-makeCompanyCards(URL);
-
+import * as data from './data.json';
+const {companies} = data;
+console.log(companies); // output 'testing'
+makeCompanyCards(companies);
 
 async function makeCompanyCards(data) {
     console.log(data);
