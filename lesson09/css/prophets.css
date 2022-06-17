@@ -1,22 +1,47 @@
 body {
     font-size: 16px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    text-align: center;
   }
+h1 {
+  font-size: 60px;
+  color: rgb(4, 79, 96);
+  margin: auto;
+  }
+h2 {
+  font-size: 30px;
+  color: rgb(5, 97, 117);
+}
   
-  p {
-    margin: 0;
+  h1, h2, p {
+    margin: auto 0;
+    font-family: Garamond, serif;
+    padding: 5px;
   }
+
   
   
   img {
     width: auto;
-      max-width: 325px;
+    max-width: 325px;
     box-shadow: 0 0 30px #777;
     height: 200px;
     border: 1px solid #333;
+    
   }
 
-.card {
-    background-color: black;
+.cards {
+    
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 0;
     padding: 20px;
+    
+}
+
+
+section {
+  background-color: lightskyblue;
+  border: 2px solid rgb(4, 4, 131);
+  padding: 15px;
 }

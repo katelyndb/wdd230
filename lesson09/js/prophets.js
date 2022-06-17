@@ -29,7 +29,7 @@ async function makeProphetCards(data) {
     portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
     date.innerHTML =`Date of Birth: ${prophet.birthdate}`;
-    
+    place.innerHTML =`Place of Birth: ${prophet.birthplace}`;
     card.append(h2);
     card.append(place);
     card.append(date);
