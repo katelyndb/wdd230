@@ -1,0 +1,84 @@
+{
+    "companies": [
+      {
+        "name": "Cindy's Bakery",
+        "address": "368 South 2nd Street 30089 Lilburn, GA",
+        "phonenum": "678-034-8395",
+        "weburl": "https://www.broulims.com/departments/bakery",
+        "iconname": "iconname",
+        "membership": "Gold",
+        "memberyear": 5
+      },
+      {
+        "name": "Lovely Shoes",
+        "address": "977 Meadow Rd 30089 Lawrenceville, GA",
+        "phonenum": "774-629-7777",
+        "weburl": "https://www.famousfootwear.com/",
+        "iconname": "iconname",
+        "membership": "Bronze",
+        "memberyear": 1
+      },
+      {
+        "name": "Good Food",
+        "address": "214 Shadow Lane 30089 Lilburn, GA",
+        "phonenum": "774-629-7777",
+        "weburl": "https://www.karieannes.com/home/",
+        "iconname": "iconname",
+        "membership": "Silver",
+        "memberyear": 2
+      },
+      {
+        "name": "Bob's Turtles",
+        "address": "370 Meadow Rd 30089 Lawrenceville, GA",
+        "phonenum": "888-9864-0033",
+        "weburl": "https://myturtlestore.com/",
+        "iconname": "iconname",
+        "membership": "Gold",
+        "memberyear": 10
+      },
+      {
+        "name": "Buy a Hat",
+        "address": "884 Sunshine Rd 30089 Lilburn, GA",
+        "phonenum": "755-005-7447",
+        "weburl": "https://www.villagehatshop.com/",
+        "iconname": "iconname",
+        "membership": "Silver",
+        "memberyear": 5
+      },
+      {
+        "name": "Sarah Lynn's",
+        "address": "990 Poplar Rd 30089 Lilburn, GA",
+        "phonenum": "803-677-9566",
+        "weburl": "https://www.costco.com/",
+        "iconname": "iconname",
+        "membership": "Gold",
+        "memberyear": 20
+      },
+      {
+        "name": "First Aid Clinic",
+        "address": "884 Sunshine Rd 30089 Lilburn, GA",
+        "phonenum": "123-888-5479",
+        "weburl": "https://rexburgmedicalclinic.com/",
+        "iconname": "iconname",
+        "membership": "Nonprofit",
+        "memberyear": 6
+      },
+      {
+        "name": "Happy Grocery",
+        "address": "483 Meadow Rd 30089 Lawrenceville, GA",
+        "phonenum": "850-302-3200",
+        "weburl": "https://www.walmart.com/",
+        "iconname": "iconname",
+        "membership": "Silver",
+        "memberyear": 4
+      },
+      {
+        "name": "Barb's Motors",
+        "address": "900 Turtle Rd 30089 Lilburn, GA",
+        "phonenum": "824-119-2232",
+        "weburl": "https://www.rexburgcarshop.com/",
+        "iconname": "iconname",
+        "membership": "Silver",
+        "memberyear": 3
+      }
+]}
