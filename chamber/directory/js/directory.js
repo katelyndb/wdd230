@@ -1,17 +1,18 @@
 
 const cards = document.querySelector('.cards');
-var requesturl = '../data.json'
+var jsonurl = 'https://katelyndb.github.io/wdd230/chamber/directory/data.json'
 //import * as data from '........../data.json';
 //const {companies} = data;
 console.log(data); // output 'testing'
 
-
-
-async function getPatrons(requesturl) {
+async function getCompanies(requesturl) {
   const response = await fetch(requestURL);
+  console.log(response);
   if (response.ok) {
       const data = await response.json();
       makeCompanyCards(data);
+  }else{
+    throw Error(response.statusText);
   }
 }
 
@@ -41,3 +42,4 @@ async function makeCompanyCards(data) {
     cards.append(card);
   });
 }
+getCompanies(jsonurl);
