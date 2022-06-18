@@ -26,14 +26,19 @@ async function makeCompanyCards(data) {
     let a = document.createElement('a');
 
     h2.innerHTML = `${company.name}`;
+    card.setAttribute = ('class', 'company_card')
     icon.setAttribute('src', company.iconname);
     icon.setAttribute('alt', `Icon of  ${company.name}`);
     icon.setAttribute('loading', 'lazy');
-    p.innerHTML =`Address: ${company.address} <br> Phone Number: ${company.phonenum}`;
+    p.innerHTML =`<b>Address</b>: ${company.address} <br> <b>Phone Number </b>: ${company.phonenum}`;
     a.setAttribute('href', company.weburl);
     a.innerHTML = 'Link to Website';
     a.setAttribute('target', '_blank')
-    pmember.innerHTML = `Membership Level: ${company.membership} <br> Years as a valued member: <strong>${company.memberyear} </strong>`;
+    if (company.memberyear == 1 || company.memberyear == 0 ){
+      pmember.innerHTML = `<b>Membership Level</b>: ${company.membership} <br> First year as a valued member!`;
+    }else{
+      pmember.innerHTML = `<b>Membership Level</b>: ${company.membership} <br> <strong>${company.memberyear} </strong> years as a valued member!`;
+    }
     card.append(h2);
     card.append(icon);
     card.append(a);

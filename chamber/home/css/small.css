@@ -300,6 +300,9 @@ main p, main div {
     background-color: #fff;
     padding: 15px;
     font-family: Nanum Gothic, sans-serif;
+    border-color: #4d4452;
+    border-style: double;
+    border-width: 5px;
 }
 #greenway_text  {
     font-size: 30;
@@ -424,4 +427,23 @@ legend
     margin: 0;
     padding: 20px;
     
+}
+.cards>section {
+    background-color: #94849B;
+    padding: 10px;
+    border-color: #4d4452;
+    border-style: double;
+    border-width: 5px;
+    position: relative;
+}
+.cards >section>img {
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    height: 55px;
+}
+.cards > section > p{
+    border-color: #4d4452;
+    border-style: double;
+    border-width: 2px;
 }
