@@ -1,10 +1,19 @@
 
 const cards = document.querySelector('.cards');
+var requesturl = '../data.json'
+//import * as data from '........../data.json';
+//const {companies} = data;
+console.log(data); // output 'testing'
 
-import * as data from './data.json';
-const {companies} = data;
-console.log(companies); // output 'testing'
-makeCompanyCards(companies);
+
+
+async function getPatrons(requesturl) {
+  const response = await fetch(requestURL);
+  if (response.ok) {
+      const data = await response.json();
+      makeCompanyCards(data);
+  }
+}
 
 async function makeCompanyCards(data) {
     console.log(data);
