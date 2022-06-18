@@ -14,7 +14,7 @@
         "address": "977 Meadow Rd 30089 Lawrenceville, GA",
         "phonenum": "774-629-7777",
         "weburl": "https://www.famousfootwear.com/",
-        "iconname": "iconname",
+        "iconname": "./images/shoes.png",
         "membership": "Bronze",
         "memberyear": 1
       },
@@ -23,7 +23,7 @@
         "address": "214 Shadow Lane 30089 Lilburn, GA",
         "phonenum": "774-629-7777",
         "weburl": "https://www.karieannes.com/home/",
-        "iconname": "iconname",
+        "iconname": "./images/boba.png",
         "membership": "Silver",
         "memberyear": 2
       },
@@ -32,7 +32,7 @@
         "address": "370 Meadow Rd 30089 Lawrenceville, GA",
         "phonenum": "888-9864-0033",
         "weburl": "https://myturtlestore.com/",
-        "iconname": "iconname",
+        "iconname": "./images/turtle.png",
         "membership": "Gold",
         "memberyear": 10
       },
@@ -41,7 +41,7 @@
         "address": "884 Sunshine Rd 30089 Lilburn, GA",
         "phonenum": "755-005-7447",
         "weburl": "https://www.villagehatshop.com/",
-        "iconname": "iconname",
+        "iconname": "./images/hat.png",
         "membership": "Silver",
         "memberyear": 5
       },
@@ -50,7 +50,7 @@
         "address": "990 Poplar Rd 30089 Lilburn, GA",
         "phonenum": "803-677-9566",
         "weburl": "https://www.costco.com/",
-        "iconname": "iconname",
+        "iconname": "./images/jewel.png",
         "membership": "Gold",
         "memberyear": 20
       },
@@ -59,7 +59,7 @@
         "address": "884 Sunshine Rd 30089 Lilburn, GA",
         "phonenum": "123-888-5479",
         "weburl": "https://rexburgmedicalclinic.com/",
-        "iconname": "iconname",
+        "iconname": "./images/clinic.png",
         "membership": "Nonprofit",
         "memberyear": 6
       },
@@ -68,7 +68,7 @@
         "address": "483 Meadow Rd 30089 Lawrenceville, GA",
         "phonenum": "850-302-3200",
         "weburl": "https://www.walmart.com/",
-        "iconname": "iconname",
+        "iconname": "./images/grocery.png",
         "membership": "Silver",
         "memberyear": 4
       },
@@ -77,7 +77,7 @@
         "address": "900 Turtle Rd 30089 Lilburn, GA",
         "phonenum": "824-119-2232",
         "weburl": "https://www.rexburgcarshop.com/",
-        "iconname": "iconname",
+        "iconname": "./images/car.png",
         "membership": "Silver",
         "memberyear": 3
       }

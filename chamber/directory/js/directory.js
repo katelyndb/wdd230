@@ -31,7 +31,8 @@ async function makeCompanyCards(data) {
     icon.setAttribute('loading', 'lazy');
     p.innerHTML =`Address: ${company.address} <br> Phone Number: ${company.phonenum}`;
     a.setAttribute('href', company.weburl);
-    a.setAttribute('value', "DID THIS WORK?");
+    a.innerHTML = 'Link to Website';
+    a.setAttribute('target', '_blank')
     pmember.innerHTML = `Membership Level: ${company.membership} <br> Years as a valued member: <strong>${company.memberyear} </strong>`;
     card.append(h2);
     card.append(icon);
