@@ -5,7 +5,7 @@
         "address": "368 South 2nd Street 30089 Lilburn, GA",
         "phonenum": "678-034-8395",
         "weburl": "https://www.broulims.com/departments/bakery",
-        "iconname": "iconname",
+        "iconname": "./images/bake.png",
         "membership": "Gold",
         "memberyear": 5
       },

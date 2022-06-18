@@ -1,12 +1,11 @@
 
 const cards = document.querySelector('.cards');
-var jsonurl = 'https://katelyndb.github.io/wdd230/chamber/directory/data.json'
+var jsonurl = 'https://katelyndb.github.io/wdd230/chamber/directory/data.json';
 //import * as data from '........../data.json';
 //const {companies} = data;
-console.log(data); // output 'testing'
 
 async function getCompanies(requesturl) {
-  const response = await fetch(requestURL);
+  const response = await fetch(requesturl);
   console.log(response);
   if (response.ok) {
       const data = await response.json();
@@ -30,7 +29,7 @@ async function makeCompanyCards(data) {
     icon.setAttribute('src', company.iconname);
     icon.setAttribute('alt', `Icon of  ${company.name}`);
     icon.setAttribute('loading', 'lazy');
-    p.innerHTML =`Address: ${company.adress} <br> Phone Number: ${company.phonenum}`;
+    p.innerHTML =`Address: ${company.address} <br> Phone Number: ${company.phonenum}`;
     a.setAttribute('href', company.weburl);
     a.setAttribute('value', "DID THIS WORK?");
     pmember.innerHTML = `Membership Level: ${company.membership} <br> Years as a valued member: <strong>${company.memberyear} </strong>`;
