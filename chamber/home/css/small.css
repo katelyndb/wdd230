@@ -345,34 +345,49 @@ input {
 
 
 #formpersonal {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
   }
 #formcontact {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-#formbusiness {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-#formmember {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2;
 }
-#formsubmit {
+#formbusiness {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#formmember {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#formsubmit {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 legend 
 {
@@ -446,4 +461,16 @@ legend
     border-color: #4d4452;
     border-style: double;
     border-width: 2px;
+}
+
+
+label{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form > div {
+    width: 75%;
+    margin:0 auto;
 }
