@@ -474,3 +474,10 @@ form > div {
     width: 75%;
     margin:0 auto;
 }
+#exit_link {
+    font-size: 32px;
+    border-color: #4d4452;
+    border-style: double;
+    border-width: 5px;
+    padding: 12px;
+}
