@@ -398,12 +398,12 @@ legend
 }
 
 
-#submitform {
+#submit_button {
     background: #463d4a;
     color: white;
     border-style: outset;
     border-color: #2E3534;
-    height: 50px;
+    height: 80px;
     width: 100px;
     font: bold15px arial,sans-serif;
     font-size: 30px;
