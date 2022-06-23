@@ -404,10 +404,10 @@ legend
     border-style: outset;
     border-color: #2E3534;
     height: 80px;
-    width: 100px;
     font: bold15px arial,sans-serif;
     font-size: 30px;
     width: 100%;
+    text-shadow: none;
     }
 #goldblock
 {
