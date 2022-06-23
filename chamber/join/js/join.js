@@ -8,8 +8,8 @@ var seconds = d.getSeconds();
 document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
 
 
-
-
+/*
 document.getElementById("submitform").onclick = function () {
     location.href = "./thankyou.html";
 };
+*/
