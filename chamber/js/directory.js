@@ -1,6 +1,6 @@
 
 const cards = document.querySelector('.cards');
-var jsonurl = 'https://katelyndb.github.io/wdd230/chamber/directory/data.json';
+var jsonurl = 'https://katelyndb.github.io/wdd230/chamber/data.json';
 //import * as data from '........../data.json';
 //const {companies} = data;
 

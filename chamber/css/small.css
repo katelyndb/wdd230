@@ -278,21 +278,23 @@ picture img{
     opacity: 1;
     filter: drop-shadow(0,0,0);
     filter: hue-rotate(0deg);
+    transform: scale(1.1); 
 }
 .division_right picture:hover {
     opacity: 1;
     filter: drop-shadow(0,0,0);
     filter: hue-rotate(0deg);
+    transform: scale(1.1); 
 }
 .division_right {
     display: grid;
     grid-template-columns: .25fr 1fr 1fr .25fr;
-    grid-gap: 20px;
+    grid-gap: 60px;
 }
 .division_left {
     display: grid;
     grid-template-columns: .25fr 1fr 1fr .25fr;
-    grid-gap: 20px;
+    grid-gap: 60px;
 }
 
 main p, main div {
