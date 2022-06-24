@@ -496,6 +496,7 @@ figure img {
 figure figcaption {
     text-align: center;
     text-transform: capitalize;
+    font-weight: bold;
 
 }
 
