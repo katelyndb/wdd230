@@ -147,7 +147,7 @@ footer {
 }
 
 /* unvisited link */
-nav a:link {
+nav a.bar:link {
     color: #E0F2E9;
     border-style: solid;
     border-width: 1px;
@@ -156,7 +156,7 @@ nav a:link {
   }
   
 /* visited link */
-nav a:visited {
+nav a.bar:visited {
     color: #E0F2E9;
     border-style: solid;
     border-width: 1px;
@@ -165,7 +165,7 @@ nav a:visited {
   }
   
 /* mouse over link */
-nav a:hover, a:active {
+nav a.bar:hover, a:active {
     color: #110009;
     background-color: #a899b0;
     border-style: solid;
