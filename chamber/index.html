@@ -70,18 +70,25 @@
         </div>
         <div id="weather-placeholder">
             
-            <img src="images/weather.png" alt="Icon for Weather; cloud and sun" height="50">
-            <h2>Weather</h2>
-            <h3 id="temp"></h3>
-            <p id="current-temp"></p>
-            <p id="weather-icon"></p>
-            <p id="humidity"></p>
-            <p id="feels_like"></p>
-            <p id="temperature"></p>
-            <p id="wind-speed"></p>
-
-            <p id="windSpeed"></p>
-            <p id="windChill"> </p>
+                <h2>Weather</h2>
+                <div id="weather-content">
+                <section id="weather-header">
+                    <strong><h3 id="current-temp"> </h3><span>&#8457;</span></strong>
+                    
+                    <figure>
+                        <img id="weather-icon"  height="100px">
+                    <strong><figcaption></figcaption></strong>
+                    </figure>
+                </section>
+                <hr>
+                
+            
+                <h4>Humidity: </h4><span id="humidity"></span>
+                <h4>Feels Like: </h4> <span id="feels_like"></span><span>&#8457;</span>
+                <h4>Wind Speed: </h4><span id="wind-speed"></span>
+                <h4 >Wind Chill: </h4> <span id="windChill"> </span>
+            </div>  
+                
         </div>
         <div id="news-placeholder">
             <h2>News Release</h2>

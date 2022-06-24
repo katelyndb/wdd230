@@ -484,3 +484,23 @@ form > div {
     border-width: 5px;
     padding: 12px;
 }
+
+
+figure {
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+#weather-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 23px;
+}
