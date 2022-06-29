@@ -392,11 +392,12 @@ input {
     grid-column-start: 1;
     grid-column-end: 2;
 }
-legend 
+p.legend
 {
     background-color: #7a6c80;
     color: white;
     padding: 5px 5px;
+    border: None;
 }
 
 

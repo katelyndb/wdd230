@@ -56,14 +56,14 @@
             <input type="hidden" id="date" name="date" value="CurrentTime"> 
             <input type="hidden" id="time" name="time" value="CurrentDate">
             <div id="formpersonal">
-                <legend>Personal Information</legend>
+                <p class="legend">Personal Information</p>
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" required><br>
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname" required><br>
             </div>
             <div id="formcontact">
-                <legend>Contact Information</legend>
+                <p class="legend">Contact Information</p>
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required placeholder="janedoe@gmail.com"><br>
                 <label for="phone">Phone Number:</label><br>
@@ -71,17 +71,17 @@
             </div>
             
             <div id="formbusiness">
-                <legend>Business Information</legend>
+                <p class="legend">Business Information</p>
                 <label for="bname">Business Name/Title:</label><br>
                 <input type="text" id="bname" name="bname" required><br>
                 <label for="bposition">Business Position Title:</label><br>
                 <input type="text" id="bposition" name="bposition" required><br>
                 <label for="bdesc">Business Description:</label><br>
-                <input type="textarea" id="bdesc" name="bdesc" required><br>
+                <textarea id="bdesc" name="bdesc" required></textarea><br>
             </div>
             <div id="formmember">
-                <legend>Membership Information</legend>
-                <label for="cars">Choose a membership level:</label>
+                <p class="legend">Membership Information</p>
+                <label for="memberchoices">Choose a membership level:</label>
                 <br>
                 <div id="memberchoices">
                     <div id="nonpblock">
@@ -123,8 +123,9 @@
             <div id="formsubmit">
                 <input type="submit" id="submit_button" name="submitform" value="Join!">
             </div>
-        </div>
+        
         </form>
+    </div>
     </main>
 
     <footer>
