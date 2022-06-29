@@ -15,7 +15,7 @@ var currentmonth = currentdate.getMonth()+1;
 
 
 
-difference = prevmonth;
+let difference = prevmonth;
 if (prevmonth == currentmonth){
     difference = currentday - prevday;
 }
@@ -69,10 +69,10 @@ if ('IntersectionObserver' in window) {
         items.forEach((item) => {
             if(item.isIntersecting) {
                 loadImages(item.target);
-                imgObserver.unobserve(item.target)
+                imgObserver.unobserve(item.target);
             }
 
-        })
+        });
     }, imgOptions);
     imagesToLoad.forEach((img) => {
         imgObserver.observe(img);
