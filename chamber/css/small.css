@@ -45,7 +45,7 @@ nav {
     
 
   }
-  .grid-container > div {
+.grid-container > div {
       
     background-color: #cac2cf;
     text-align: left;
@@ -115,7 +115,6 @@ nav {
 #notif_banner {
     color: #E0F2E9;
     font-family: Nanum Gothic Coding, monospace;
-    
     background-color: #2E3534;
     position: fixed;
     padding: 10px;
@@ -184,18 +183,17 @@ h1 {
     float: right;
     text-decoration: none;
 }
-#main_heading a:link, a:visited, a:unvisited {
+#main_heading a:link, a:visited{
     color: #110009;
 
 }
 #main_heading a:hover, a:active  {
     color: #110009;
-}
+} 
 
 p, span  {
     font-family: Nanum Gothic, sans-serif;
 }
-
 img {
     border-radius: 25px;
     box-shadow: 0 0 0 4px #fff;
@@ -228,7 +226,7 @@ footer div{
 
 * {
     box-sizing: border-box;
-    margin: 100;
+    margin: 100px;
     padding: 0;
 }
 
@@ -276,13 +274,13 @@ picture img{
 
 .division_left picture:hover {
     opacity: 1;
-    filter: drop-shadow(0,0,0);
+    filter: drop-shadow(0 0 0);
     filter: hue-rotate(0deg);
     transform: scale(1.1); 
 }
 .division_right picture:hover {
     opacity: 1;
-    filter: drop-shadow(0,0,0);
+    filter: drop-shadow(0 0 0);
     filter: hue-rotate(0deg);
     transform: scale(1.1); 
 }
@@ -298,21 +296,20 @@ picture img{
 }
 
 main p, main div {
-    font-size: 30;
+    font-size: 30px;
     background-color: #fff;
     padding: 15px;
     font-family: Nanum Gothic, sans-serif;
-    border-color: #4d4452;
+    border-color:#4d4452;
     border-style: double;
     border-width: 5px;
 }
 #greenway_text  {
-    font-size: 30;
+    font-size: 30px;
     background-color: #fff;
     padding: 30px;
     font-family: Nanum Gothic, sans-serif;
 }
-
 #visits, #last_visited {
     align-content: center;
     justify-content: center;
@@ -322,7 +319,7 @@ main p, main div {
 label {
     display:flex;
     font-family: Nanum Gothic Coding, monospace;
-    color: #110009;
+    color:#110009;
     font-size: 20px;
     padding: 10px;
     margin-top: 5px;
@@ -407,7 +404,7 @@ p.legend
     border-style: outset;
     border-color: #2E3534;
     height: 80px;
-    font: bold15px arial,sans-serif;
+    font: arial,sans-serif;
     font-size: 30px;
     width: 100%;
     text-shadow: none;
