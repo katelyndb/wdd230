@@ -218,10 +218,8 @@ footer div{
 
 #hero_background {
     align-self: center;
+    width: 40%;
     height: auto;
-    
-    
-    
 }
 
 * {
@@ -296,7 +294,7 @@ picture img{
 }
 
 main p, main div {
-    font-size: 30px;
+    font-size: 20px;
     background-color: #fff;
     padding: 15px;
     font-family: Nanum Gothic, sans-serif;
@@ -503,3 +501,5 @@ figure figcaption {
     grid-template-columns: 1fr 2fr;
     font-size: 23px;
 }
+
+
