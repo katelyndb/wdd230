@@ -73,9 +73,6 @@ nav a:hover, a:active {
         align-content: center;
     justify-content: center;
     text-align: center;
-    background-color:  #94849B;
-    color: #470024;
-    padding: 1px;
     }
     .division_left picture:hover {
         opacity: .9;

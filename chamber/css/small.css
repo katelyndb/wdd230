@@ -128,7 +128,7 @@ nav {
 header{
     
     align-content: center;
-    background-color:  #94849B;
+    background-color:  #d5bce0;
     color: #110009;
     padding: 50px;
     display: grid;
@@ -140,7 +140,7 @@ footer {
     align-content: center;
     justify-content: center;
     text-align: center;
-    background-color:  #94849B;
+    background-color:  #d5bce0;
     color: #110009;
     padding: 50px;
 }
@@ -301,6 +301,7 @@ main p {
     border-color:#4d4452;
     border-style: outset;
     border-width: 1px;
+
 }
 main div {
     font-size: 20px;
@@ -512,6 +513,13 @@ figure figcaption {
     display: grid;
     grid-template-columns: 1fr 2fr;
     font-size: 23px;
+    
+}
+#weather-content {
+
+align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
