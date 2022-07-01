@@ -26,14 +26,14 @@ async function makeCompanyCards(data) {
     let a = document.createElement('a');
 
     h2.innerHTML = `${company.name}`;
-    card.setAttribute = ('class', 'company_card')
+    card.setAttribute = ('class', 'company_card');
     icon.setAttribute('src', company.iconname);
     icon.setAttribute('alt', `Icon of  ${company.name}`);
     icon.setAttribute('loading', 'lazy');
     p.innerHTML =`<b>Address</b>: ${company.address} <br> <b>Phone Number </b>: ${company.phonenum}`;
     a.setAttribute('href', company.weburl);
     a.innerHTML = 'Link to Website';
-    a.setAttribute('target', '_blank')
+    a.setAttribute('target', '_blank');
     if (company.memberyear == 1 || company.memberyear == 0 ){
       pmember.innerHTML = `<b>Membership Level</b>: ${company.membership} <br> First year as a valued member!`;
     }else{
