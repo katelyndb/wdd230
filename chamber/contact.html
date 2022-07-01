@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
     
-    <title>LACC: Discover</title>
+    <title>Lilburn Area Chamber of Commerce: Contact</title>
 </head>
 <body>
     <section id="notif_banner">
@@ -24,7 +24,7 @@
     <header>
     <section id="heading_items">
         <picture class="logo">
-            <img src="images/LACC_icon.webp" alt="Icon for LACC" height="100">
+            <img src="images/LACC_icon.webp" alt="Icon for Lilburn Area Chamber of Commerce" height="100">
         </picture>
         <h1 class="main_heading"> <a href="index.html" >Lilburn Area Chamber of Commerce</a></h1>
     </section>
@@ -51,8 +51,9 @@
                 <p id="header_date"></p>
     </header>
     <main class="grid-container">
-        <div class="contact_info">
-            <h2>Contact Information</h2>
+        <div id="contact_grid">
+            <section id="contact_info">
+            <h2 class="contact_header">Contact Information</h2>
             <div>
             <h3>Address</h3>
                 <p>Lilburn Chamber of Commerce <br>
@@ -65,26 +66,29 @@
             </div>
                 <h3>Email</h3>
                 <p>contactlilburncommerce.org</p>
-            <h2>Contact Us!</h2>
-                <form>
-                    <label>First Name: </label>
-                    <input> </input>
-                    <label>Last Name: </label>
-                    <input></input>
-                    <label>Email: </label>
-                    <input> </input>
-                    <label>Message: </label>
-                    <input> </input>
-
+            <br>
+        </section>
+        <section>
+            <h2 class="contact_header">Contact Us!</h2>
+                <form id="contact_form">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="janedoe@gmail.com"><br>
+                    <label for="message">Message: </label><br>
+                    <input type="text" id="message" name="message"> </input>
+                    <input type="submit" id="submit_button" name="submitform" value="Contact">
                 </form>
         
-        
+            </section>
         </div>
     </main>
 
     <footer>
         <div >
-        <img src="images/LACC_icon.webp" alt="Icon for LACC" height="50">
+        <img src="images/LACC_icon.webp" alt="Icon for Lilburn Area Chamber of Commerce" height="50">
         </div>
         <p id="copyright"></p>
         <p> &nbsp; Lilburn Chamber | WDD230 Project |  </p>
