@@ -1,3 +1,9 @@
+
+* {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+}
 html {
     background-color: #2E3534;
 }
@@ -11,7 +17,7 @@ nav {
 
 .navigation li {
     list-style: none;
-    background-color: #c3accc;
+    background-color: #b092bd;
     display: none;
 
 }
@@ -32,43 +38,22 @@ nav {
     display: block;
 }
 
-
-
-
-
 .grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 20px;
-    padding: 40px;
+    padding: 5px;
     margin: 0 auto;
-    
-
   }
 .grid-container > div {
       
     background-color: #cac2cf;
     text-align: left;
-    padding: 30px;
+    padding: 20px;
     
-    
-    
-  }
-  .grid-container img {
-      border-radius: 2px;
-      outline: 2px solid #CCC;
-      float: right;
-      
   }
   .grid-container a{
       color: #110009;
       font-weight: bold;
   }
-  #hero-placeholder {
-    /*background-image: url("../images/lilburn.jpeg"); */
-    width: 100%;
-    
-  }
+
 
 
 #social_icons {
@@ -90,12 +75,15 @@ nav {
     align-content: center;
     justify-content: center;
     text-align: center;
-    background-color: #bba6c4;
+    background-color: #b8d6da;
     padding: 15px;
     grid-column-start: 1;
     grid-column-end: 4;
     width: 100%;
     font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #94849B;
     
 }
 
@@ -103,9 +91,7 @@ nav {
     display: grid;
     grid-gap: 20px;
 }
-#spotlight-placeholder div {
-    grid-template-rows: 1fr 1fr 1fr;
-}
+
 .spotlight_item {
     padding: 20px;
     background-color: white;
@@ -136,37 +122,47 @@ header{
 }
 
 
+
 footer {
     align-content: center;
     justify-content: center;
     text-align: center;
     background-color:  #d5bce0;
     color: #110009;
-    padding: 50px;
+    padding: 20px;
 }
 
 /* unvisited link */
-nav a.bar:link {
+li > a:link {
     color: #E0F2E9;
     border-style: solid;
     border-width: 1px;
     border-color: #94849B;
-    
+    background-color: #2f0d3f;
   }
   
 /* visited link */
-nav a.bar:visited {
+li > a:visited {
     color: #E0F2E9;
     border-style: solid;
     border-width: 1px;
     border-color: #94849B;
-    background-color:#000000;
+    background-color:#2f0d3f;
   }
   
 /* mouse over link */
-nav a.bar:hover, a:active {
+li > a:hover,li > a:active {
     color: #110009;
-    background-color: #443949;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4d4452;
+    
+  }
+
+main > a:hover,main > a:active {
+    color: #110009;
+    background-color: #ffffff;
     border-style: solid;
     border-width: 1px;
     border-color: #4d4452;
@@ -216,17 +212,7 @@ footer div{
     padding: 30px;
 }
 
-#hero_background {
-    align-self: center;
-    width: 40%;
-    height: auto;
-}
 
-* {
-    box-sizing: border-box;
-    margin: 20px;
-    padding: 0;
-}
 
   #hero-placeholder {
       
@@ -557,7 +543,15 @@ align-content: center;
 
 main {
     max-width: 80%;
+    align-content: center;
+    background-color:  #b8d6da;
+    color: #110009;
+    padding: 10px;
+    display: grid;
 }
+main > div, main > section {
+    align-content: center;
+}   
 
 #logo_link {
     border: None;
@@ -587,3 +581,7 @@ nav a.logo_link:hover, a:active {
     border-width: 0px;
     
   }
+
+.hero-image {
+    width: 100%
+}

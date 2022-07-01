@@ -10,17 +10,17 @@
         flex: 1 1 auto;
     }
     /* unvisited link */
-nav a.bar:link {
+    li > a:link {
     color: #E0F2E9;
   }
   
 /* visited link */
-nav a.bar:visited {
+li > a:visited {
     color: #E0F2E9;
   }
   
 /* mouse over link */
-nav a.bar:hover, a:active {
+li > a:hover, li > a:active {
     color: #470024;
   }
 
@@ -28,7 +28,10 @@ nav a.bar:hover, a:active {
       font-size:200%;
   }
     
-    
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
 
 
     #hero-placeholder {
