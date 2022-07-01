@@ -95,7 +95,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: 4;
     width: 100%;
-    font-size: 12px;
+    font-size: 20px;
     
 }
 
@@ -293,15 +293,28 @@ picture img{
     grid-gap: 60px;
 }
 
-main p, main div {
+main p {
     font-size: 20px;
     background-color: #fff;
     padding: 15px;
     font-family: Nanum Gothic, sans-serif;
     border-color:#4d4452;
     border-style: outset;
-    border-width: 5px;
+    border-width: 1px;
 }
+main div {
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+    font-family: Nanum Gothic, sans-serif;
+    border-color:#4d4452;
+    border-style: outset;
+    border-width: 4px;
+}
+
+
+
+
 #greenway_text  {
     font-size: 30px;
     background-color: #fff;
@@ -324,7 +337,7 @@ label {
 }
 
 input {
-    padding: 15px;
+    padding: 10px;
 }
 #bdesc {
     padding: 15px;
@@ -471,6 +484,7 @@ form > div {
     width: 75%;
     margin:0 auto;
 }
+
 #exit_link {
     font-size: 32px;
     border-color: #4d4452;
@@ -503,11 +517,18 @@ figure figcaption {
 
 #contact_form {
     margin: auto;
-    width: 50%;
+    width: 100%;
     border-color: #4d4452;
     border-style: outset;
-    border-width: 5px;
-    padding: 10px;
+    border-width: 1px;
+    padding: 5px;
+}
+#contact_form > input {
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
 }
 #contact_grid {
     margin: auto;
@@ -517,6 +538,7 @@ figure figcaption {
     padding: 10px;
     display:grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .contact_header {
