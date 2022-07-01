@@ -160,13 +160,13 @@ nav a.bar:visited {
     border-style: solid;
     border-width: 1px;
     border-color: #94849B;
-    background-color:#aa92b4;
+    background-color:#000000;
   }
   
 /* mouse over link */
 nav a.bar:hover, a:active {
     color: #110009;
-    background-color: #ab8eb9;
+    background-color: #443949;
     border-style: solid;
     border-width: 1px;
     border-color: #4d4452;
