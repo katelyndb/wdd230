@@ -10,17 +10,17 @@
         flex: 1 1 auto;
     }
     /* unvisited link */
-nav a:link {
+nav a.bar:link {
     color: #E0F2E9;
   }
   
 /* visited link */
-nav a:visited {
+nav a.bar:visited {
     color: #E0F2E9;
   }
   
 /* mouse over link */
-nav a:hover, a:active {
+nav a.bar:hover, a:active {
     color: #470024;
   }
 
