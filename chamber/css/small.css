@@ -46,7 +46,7 @@ nav {
       
     background-color: #cac2cf;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
     
   }
   .grid-container a{
@@ -93,7 +93,7 @@ nav {
 }
 
 .spotlight_item {
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     
 }
@@ -116,7 +116,7 @@ header{
     align-content: center;
     background-color:  #d5bce0;
     color: #110009;
-    padding: 50px;
+    padding: 30px;
     display: grid;
 
 }
@@ -201,15 +201,15 @@ header a {
 }
 
 header div {
-    padding: 20px;
+    padding: 15px;
 }
 
 footer div{
-    padding: 20px;
+    padding: 15px;
 }
 
 #heading_items {
-    padding: 30px;
+    padding: 20px;
 }
 
 
@@ -271,13 +271,14 @@ picture img{
 .division_right {
     display: grid;
     grid-template-columns: .25fr 1fr 1fr .25fr;
-    grid-gap: 60px;
+    grid-gap: 10px;
 }
 .division_left {
     display: grid;
     grid-template-columns: .25fr 1fr 1fr .25fr;
-    grid-gap: 60px;
+    grid-gap: 10px;
 }
+.division_left > picture , .division_left > picture , .division_right >  p , .division
 
 main p {
     font-size: 20px;
@@ -305,7 +306,7 @@ main div {
 #greenway_text  {
     font-size: 30px;
     background-color: #fff;
-    padding: 30px;
+    padding: 15px;
     font-family: Nanum Gothic, sans-serif;
 }
 #visits, #last_visited {
@@ -336,7 +337,7 @@ input {
 
 }
 #formGrid div{
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -437,7 +438,7 @@ p.legend
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     
 }
 .cards>section {
@@ -503,7 +504,7 @@ figure figcaption {
 }
 #weather-content {
 
-align-content: center;
+    align-content: center;
     justify-content: center;
     text-align: center;
 }
@@ -542,20 +543,18 @@ align-content: center;
 }
 
 main {
-    max-width: 80%;
-    align-content: center;
     background-color:  #b8d6da;
     color: #110009;
     padding: 10px;
-    display: grid;
 }
 main > div, main > section {
     align-content: center;
+    margin: 10px;
+
 }   
 
 #logo_link {
     border: None;
-
 }
 
 
@@ -580,8 +579,6 @@ nav a.logo_link:hover, a:active {
     border-style: None;
     border-width: 0px;
     
-  }
-
 .hero-image {
     width: 100%
 }
