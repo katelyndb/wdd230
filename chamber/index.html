@@ -54,9 +54,6 @@
     <main class="grid-container">
         <div id="hero-placeholder">
             <h2>Welcome to the Lilburn Chamber of Commerce!</h2>
-            <picture id="hero_background">
-                <img src="images/city_hall.jpg" alt="Image of Lilburn City Library" class="hero-image">
-            </picture>
         </div>
         <div id="events-placeholder">
             
@@ -70,19 +67,23 @@
                 <h2>Weather</h2>
                 <div id="weather-content">
                 <section id="weather-header">
-                    <h3 id="current-temp">N/A </h3><strong><span>&#8457;</span></strong>
-                    
+                    <div>
+                    <h3 id="current-temp">N/A </h3><span><strong>&#8457;</strong></span> </div>
+                    <div>
                     <figure>
                         <img src="images/weather.png" id="weather-icon"  height="100" alt="Icon of current weather in Lilburn">
+                    
                     <figcaption></figcaption>
                     </figure>
+                    </div>
                 </section>
                 <hr>
-                
+                <section id="weather-stats">
                 <h4>Humidity: </h4><span id="humidity"></span>
                 <h4>Feels Like: </h4> <span id="feels_like"></span><span>&#8457;</span>
                 <h4>Wind Speed: </h4><span id="wind-speed"></span>
                 <h4 >Wind Chill: </h4> <span id="windChill"> </span>
+            </section>
             </div>  
                 
         </div>
@@ -93,8 +94,9 @@
         <div id="spotlight-placeholder">
             <div id="spotlight-heading">
             <h2>Spotlights</h2>
-            </div>
             <div class="cards"></div>
+            </div>
+           
                 
             </div>
         <div id="join-placeholder">

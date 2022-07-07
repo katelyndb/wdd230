@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 20px;
     padding: 0;
+    
 }
 html {
     background-color: #2E3534;
@@ -93,7 +94,7 @@ nav {
 }
 
 .spotlight_item {
-    padding: 15px;
+    padding: 10px;
     background-color: white;
     
 }
@@ -215,11 +216,10 @@ footer div{
 
 
   #hero-placeholder {
-      
-        grid-row-start: 1;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: auto;
+    background-image: url("../images/city_hall.jpg");
+    background-color: #4d4452;
+    background-size: cover; /* Resize the background image to cover the entire container */
+     background-position: center; /* Center the image */    
         
     }
     #events-placeholder {
@@ -243,7 +243,9 @@ footer div{
     }
 }
 
-
+span {
+    margin: 0px;
+}
 
 
 
@@ -259,8 +261,10 @@ picture img{
 .division_left > h2, .division_right > h2 {
     text-align: center;
 }
-.division_left > img, .division_right > img {
-
+ .box > picture > img {
+    margin: auto;
+    display: block;
+    width: 100%;
 }
 
 .division_left picture:hover {
@@ -417,7 +421,7 @@ p.legend
     height: 80px;
     font: arial,sans-serif;
     font-size: 30px;
-    width: 100%;
+    width: 85%;
     text-shadow: none;
     }
 #goldblock
@@ -455,9 +459,12 @@ p.legend
     padding: 15px;
     
 }
+.cards h2 {
+    padding-right: 50px;
+}
 .cards>section {
     background-color: #94849B;
-    padding: 10px;
+    padding: 20px;
     border-color: #4d4452;
     border-style: outset;
     border-width: 5px;
@@ -511,9 +518,9 @@ figure figcaption {
 }
 
 #weather-header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
     font-size: 23px;
+    grid-gap: 1px;
+
     
 }
 #weather-content {
@@ -521,6 +528,8 @@ figure figcaption {
     align-content: center;
     justify-content: center;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr .1fr 1fr;
 }
 
 
@@ -562,7 +571,7 @@ main {
     padding: 10px;
 }
 main > div, main > section {
-    margin: 10px;
+    margin: 5px;
 
 }   
 
@@ -600,3 +609,6 @@ img {
     max-width: 300px;
 }
 
+* > a {
+    margin: 0 auto;
+}
