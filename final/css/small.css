@@ -1,7 +1,7 @@
 /* General Stuff */
 html {box-sizing: border-box}
-body {font-family: 'Gowun Dodum', sans-serif;margin:0}
-h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive;margin:2% 0}
+body {font-family: 'Gowun Dodum', sans-serif;margin:0; }
+h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive;margin:2% 0;background-image: "./images/white-textured-min.jpg";}
 h1 {font-size: 45px;} h2 {font-size: 35px;} h3 {font-size: 25px;} h4 {font-size: 20px;}
 p {font-size: 17px}
 hr {border:0; border-top:2px solid; margin:5% 0}
@@ -10,9 +10,12 @@ hr {border:0; border-top:2px solid; margin:5% 0}
 .large_padding {padding: 6% 12%}
 .centered_item {width:auto; text-align:center}
 .rotated_item {transform: rotate(90deg)}
+.text_link {color: inherit; text-decoration: inherit; }
 
 /* Header Formatting */
-#nav_bar {position:static;justify-content: space-between; }
+#nav_bar {position:static;justify-content: space-between;display: flex; padding-top: 2%; align-items: center;}
+#header_title{display:inline-flex;margin:0 0;}
+#header_title{position:relative; left: 3%;}
 /*----*/
 
 
@@ -28,6 +31,7 @@ hr {border:0; border-top:2px solid; margin:5% 0}
 #foot_grid_holder {display:block;  padding:2% 10% 4% 10%; }
 #foot_contact, #foot_googlemap {padding:4%;border:none;}
 #googlemap {height:75%;width:75%;}
+
 footer{max-height: 700px;padding:5% 0;width:100%;margin:0;box-sizing: border-box; display: block;}
 /*----*/
 
