@@ -1,35 +1,59 @@
 /* General Stuff */
-h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive;margin:10px 0}
-hr {border:0; border-top:2px solid; margin:20px 0}
-body {font-family: 'Gowun Dodum', sans-serif;margin:0}
 html {box-sizing: border-box}
-.small_padding {padding: 3px 6px}
-.medium_padding {padding: 6px 12px}
-.large_padding {padding: 10px 20px}
+body {font-family: 'Gowun Dodum', sans-serif;margin:0}
+h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive;margin:2% 0}
+h1 {font-size: 45px;} h2 {font-size: 35px;} h3 {font-size: 25px;} h4 {font-size: 20px;}
+p {font-size: 17px}
+hr {border:0; border-top:2px solid; margin:5% 0}
+.small_padding {padding: 1% 2%}
+.medium_padding {padding: 3% 6%}
+.large_padding {padding: 6% 12%}
 .centered_item {width:auto; text-align:center}
 .rotated_item {transform: rotate(90deg)}
 
 /* Header Formatting */
-
-
+#nav_bar {position:static;justify-content: space-between; }
 /*----*/
+
+
+
+
+
+
+
+
+
 
 /* Footer Formatting */
-#foot_grid_holder {display:grid; grid-template-columns: 1fr 1fr; grid-gap: 10px; padding-left: 20%; padding-right: 20%;}
-#foot_contact{padding:40px}
-footer{max-height: 600px;padding:5px 0;width:100%;margin:0}
-#foot_googlemap {max-width:"300"; max-height:"220"}
-
+#foot_grid_holder {display:block;  padding:2% 10% 4% 10%; }
+#foot_contact, #foot_googlemap {padding:4%;border:none;}
+#googlemap {height:75%;width:75%;}
+footer{max-height: 700px;padding:5% 0;width:100%;margin:0;box-sizing: border-box; display: block;}
 /*----*/
 
-/* Main Formatting */
 
+/* Main Formatting */
+main{padding:1% 10% 1% 10%}
 /*----*/
 
 /* Lovely Colors */
 footer{background:rgb(133, 103, 103); border-top:1px solid #ffffff;}
+#nav_bar{background:rgb(175, 227, 243); border-top:1px solid #ffffff;}
 /*----*/
+
+
+
+
+
 
 /* Index Page Only */
 
 /*----*/
+
+
+
+
+
+
+/* -----TESTING STUFF----- */
+body {background-color: yellow;}

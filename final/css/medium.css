@@ -1,0 +1,21 @@
+@media only screen and (min-width: 35em) {
+    /* Header Formatting */
+    #nav_bar {position:static}
+
+    /*----*/
+    /* Footer Formatting */
+    #foot_grid_holder {display:block;  padding:2% 10% 10% 10%;}
+    #foot_contact, #foot_googlemap{border:none;}
+    #googlemap {max-height:90%;  max-width:90%; border:none;}
+    /*----*/
+
+    /* Main Formatting */
+    main{padding:1% 10% 1% 10%}
+    /*----*/
+
+
+
+    /* -----TESTING STUFF----- */
+    body {background-color: orange;}
+    
+}
