@@ -8,6 +8,7 @@ html {box-sizing: border-box}
 .large_padding {padding: 10px 20px}
 .centered_item {width:auto; text-align:center}
 .rotated_item {transform: rotate(90deg)}
+
 /* Header Formatting */
 
 
@@ -16,7 +17,7 @@ html {box-sizing: border-box}
 /* Footer Formatting */
 #foot_grid_holder {display:grid; grid-template-columns: 1fr 1fr; grid-gap: 10px; padding-left: 20%; padding-right: 20%;}
 #foot_contact{padding:40px}
-footer{max-height: 600px;padding:5px 0;width:100%;}
+footer{max-height: 600px;padding:5px 0;width:100%;margin:0}
 #foot_googlemap {max-width:"300"; max-height:"220"}
 
 /*----*/
