@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35em) {
     /* Header Formatting */
-    #nav_bar {position:static;justify-content: space-between;display: flex; padding-top: 2%; align-items: center;justify-content: space-between}
+    #nav_bar {position:static;justify-content: space-between;display: flex; padding-top: .5%; align-items: center;justify-content: space-between;}
 
     /*----*/
     /* Footer Formatting */
@@ -10,7 +10,7 @@
     /*----*/
 
     /* Main Formatting */
-    main{padding:1% 10% 1% 10%}
+    main{padding:1% 10% 1% 10%;}
     /*----*/
 
 

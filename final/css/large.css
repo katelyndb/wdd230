@@ -9,13 +9,13 @@
 
 
     /* Main Formatting */
-    main{padding:12rem 20% 1% 20%}
+    main{padding:12rem 20% 1% 20%;}
     /*----*/
 
 
     /* Footer Formatting */
     #foot_grid_holder {display:grid; grid-template-columns: 1fr 1fr; grid-gap: 10px; padding:2% 10% 1% 10%;}
-    #foot_contact, #foot_googlemap{border-right:2px solid #ffffff;  }
+    #foot_contact, #foot_googlemap{border-right:2px solid #ffffff; }
     #foot_contact {border-left:2px solid #ffffff;}
     #googlemap {height:100%; width:100%; }
     /*----*/
