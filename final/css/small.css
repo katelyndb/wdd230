@@ -17,14 +17,14 @@ hr {border:0; border-top:2px solid; margin:5% 0;}
 #nav_bar {position:static;justify-content: space-between; display: flex; padding-top: 2%; align-items: center;}
 #header_title{display:inline-flex; margin:0 0;}
 #header_title{position:relative; left: 3%;}
-.navigation li {list-style: none;background-color: #b092bd;display: none;}
+.navigation li {list-style: none;background-color: #dfdfdf;display: none;}
 .navigation li:first-child {display: block;}
 .navigation a {display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
 .responsive li {display: block;}
 
 
 /* Footer Formatting */
-#foot_grid_holder {display:block; padding:2% 10% 4% 10%; }
+#foot_grid_holder {display:block; padding:2% 10% 4% 10%;}
 #foot_contact, #foot_googlemap {padding:4%;border:none;}
 #googlemap {height:75%;width:75%;}
 footer{max-height: 700px;padding:5% 0;width:100%;margin:0;box-sizing: border-box; display: block;}
@@ -32,7 +32,7 @@ footer{max-height: 700px;padding:5% 0;width:100%;margin:0;box-sizing: border-box
 
 
 /* Main Formatting */
-main{padding:1% 10% 1% 10%}
+main{padding:1% 10% 1% 10%;}
 /*----*/
 
 /* Lovely Colors */
