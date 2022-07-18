@@ -5,6 +5,9 @@
     #nav_bar {position:fixed; top: 0;right: 0;width: 100%; display: flex;justify-content: space-between;}
     #header_logo {height: 100px;line-height: 100px;text-align: center;}
     #header_title{position:relative; left: 3%; bottom:30%;}
+    .navigation li {list-style: none;background-color: #b092bd;display: block;}
+    .navigation li:first-child {display: none;}
+    .navigation a {display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
     /*----*/
 
 
