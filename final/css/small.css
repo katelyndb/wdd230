@@ -79,13 +79,18 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 #personal_grid_holder {display:block;}
 label {padding: 2%; display:block;font-size: 18px;padding-bottom: 5%;}
 input {padding: 2%;}
-
+#reservation_img { padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
 /*----*/
 
 /* Galaxy Fold issues */
 @media only screen and (max-width: 18em) {
     .social_img {display:none;}
 }
+/*----*/
+
+/*Services Page Only */
+#service_grid{color:#091D43;font-size:18px;}
+#services_img { padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
 /*----*/
 
 
