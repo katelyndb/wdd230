@@ -43,7 +43,7 @@
         <section id="main_content_body" class="reserve">
             <form id="formGrid" action="thankyou.html" method="post">
             <!--Personal Information-->
-            <div class="content_box_blue"><form class="w3-container w3-card-4">
+            <div class="content_box_blue">
                     <input type="hidden" id="date" name="date" value="CurrentTime"> 
                     <input type="hidden" id="time" name="time" value="CurrentDate">
                     <div id="formpersonal">
@@ -63,7 +63,7 @@
                             <label for="home">Home State or Country:</label>
                             <input type="text" id="home" name="home" required placeholder="(GA/Georgia)(Norway) ">
                             <label for="comment">Accomadations Needs or Other Comments:</label>
-                            <textarea type="text" id="comment" name="comment"></textarea>
+                            <textarea  id="comment" name="comment"></textarea>
                         </div>
                     </div>
                     </div>
@@ -73,10 +73,10 @@
                 <h3>Reservation Information</h3>
                     <div id="reserve_grid_holder">
                     <div id="reservation_block">
-                        <h4><label for="room_choices">Rooms:</label></h4>
+                        <h4><label>Rooms:</label></h4>
                         <div id="room_choices">
                             <div class="reserve_list">
-                                <input type="radio" class="room"name="membership" value="nonp">
+                                <input type="radio" class="room" name="membership" value="nonp" required>
                                 <b>Small Family</b>
                                 <ul>
                                     <li>1 Main Bedroom</li>
@@ -101,9 +101,9 @@
                         </div>
                     </div>
                     <div id="reservation_block2">
-                            <h4><label for="location_choices">Location:</label></h4>
+                            <h4><label>Location:</label></h4>
                         <div id="location_choices">
-                            <input type="radio" id="las_vegas" name="location" value="Las Vegas Nevada">
+                            <input type="radio" id="las_vegas" name="location" value="Las Vegas Nevada" required>
                             <b>Las Vegas Nevada</b><br>
                             <input type="radio" id="tonga" name="location" value="Nuku'alofa Tonga">
                             <b>Nuku'alofa Tonga</b><br>
@@ -119,7 +119,7 @@
             </div>
             </div>
             <!--Submit Button-->
-            <div id="form_submit" class="content_box_dark" ><input  class=" main_button "type="submit" id="submit_button" name="submitform" value="Place Reservation"></div>
+            <div id="form_submit" class="content_box_dark" ><input  class=" main_button" type="submit" id="submit_button" name="submitform" value="Place Reservation"></div>
         </form>
         </section>
     </main>
