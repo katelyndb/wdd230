@@ -1,7 +1,7 @@
 /* General Stuff */
 html {box-sizing: border-box;}
 body {font-family: 'Gowun Dodum', sans-serif; margin:0;}
-h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive; margin:2% 0;}
+h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive; margin:2% 0;text-shadow: 0 0 2px #ffffff, 0 0 3px #969fce;}
 h1 {font-size: 45px;} h2 {font-size: 35px;} h3 {font-size: 25px;} h4 {font-size: 20px;}
 p {font-size: 17px;}
 hr {border:0; border-top:2px solid; margin:5% 0;}
@@ -21,7 +21,7 @@ hr {border:0; border-top:2px solid; margin:5% 0;}
 .navigation a {border-radius: 8px;display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
 .responsive li {display: block;}
 .social_img {width:auto;}
-#header_logo_image {display: block; margin-left: auto; margin-right: auto;}
+#header_logo_image {display: block; margin-left: auto; margin-right: auto;border-radius: 8px;}
 
 
 
@@ -36,17 +36,23 @@ footer{max-height: 700px;padding:5% 0;width:100%;margin:0;box-sizing: border-box
 
 /* Main Formatting */
 main{padding:1% 10% 1% 10%;}
+.content_box_blue {background-color: #6886be;}
+.content_box_gray {background-color: #aaaaaa;}
+.content_box_dark {background-color: #091D43;}
 /*----*/
 
 /* Lovely Colors */
 footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
 #nav_bar{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
-#foot_copyright{background: #F2F3F3; background-clip: border-box;border: #969fce ridge ;}
+#foot_copyright{background: linear-gradient(60deg,#969fce,#F2F3F3,#969fce  ); background-clip: border-box;border: #ffffff 2px solid;}
 #foot_grid_holder{background: #A7B1E2;}
-.navigation a {box-shadow: 1px 2.5px 2px #888888;border: blue 3px solid;background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);background-color: #e0e0e0;}
+.navigation a {box-shadow: 1px 2.5px 2px #888888;border: #ffffff 2px solid;background: linear-gradient(45deg, #969fce,  #F2F3F3);background-color: #e0e0e0;}
+#header_logo_image{box-shadow: 1px 2.5px 2px #888888;border: #ffffff 2px solid;}
+#header_title{text-shadow: 0 0 3px #ffffff, 0 0 5px #969fce;}
+
 /*----*/
 
-
+/* Two new colors introduced: #6886be #aaaaaa
 
 
 
@@ -56,8 +62,11 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 /*----*/
 
 
-
-
+/* Galaxy Fold issues */
+@media only screen and (max-width: 18em) {
+    .social_img {display:none;}
+}
+/*----*/
 
 
 /* -----TESTING STUFF----- */
