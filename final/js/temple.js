@@ -27,6 +27,7 @@ async function makeTempleCards(data) {
     let dedicated = document.createElement('p');
     let closure = document.createElement('p');
     h2.innerHTML = `${temple.name}`;
+    card.setAttribute = 'class', 'content_box_blue';
     if (color_iterator == 0) {card.setAttribute = ('class', 'content_box_blue');}
     else if (color_iterator == 1) {card.setAttribute = ('class', 'content_box_gray');}
     else if (color_iterator == 2) {card.setAttribute = ('class', 'content_box_dark');};
