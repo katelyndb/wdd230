@@ -55,9 +55,15 @@
     /*----*/
     /*Services Page Only */
     #service_grid{display:grid;grid-template-columns: 1fr 1fr;font-size: 25px;}
+    #service_content_grid {display:grid;grid-template-columns: 2fr 1fr;}
+    #reception_return, #missionary_return{font-size: 25px;}
     /*----*/
 
-
+    /*Missionary and Reception Pages Only */
+    #reception_grid {display:grid;grid-template-columns: 1.5fr 1fr;}
+    #missionary_grid {display:grid;grid-template-columns: .75fr .75fr .75fr;}
+    #missionary_submit_button {font-size: 25px; padding-top: 100%;font-family: 'Gowun Dodum';font-size: 21px;}
+    /*----*/
 
     /* -----TESTING STUFF----- */
     body {background-color: #F2F3F3}

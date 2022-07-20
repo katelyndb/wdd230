@@ -77,7 +77,7 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 #submit_button {width: 100%;font-family: 'Gowun Dodum';font-size: 20px;}
 #reserve_grid_holder {display:block;}
 #personal_grid_holder {display:block;}
-label {padding: 2%; display:block;font-size: 18px;padding-bottom: 5%;}
+label {padding: 2%; display:block;font-size: 18px;padding-bottom: 5%;font-family: 'Gowun Dodum';}
 input {padding: 2%;}
 #reservation_img { padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
 /*----*/
@@ -92,6 +92,13 @@ input {padding: 2%;}
 #service_grid{color:#091D43;font-size:18px;}
 #services_img { padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
 /*----*/
+
+/*Missionary and Reception Pages Only */
+#missionary_img,#wedding_img {padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
+#reception_return, #missionary_return{color:#091D43;font-size:18px;}
+#missionary_submit_button {font-size: 18px;font-family: 'Gowun Dodum';font-size: 18px;}
+#hotel_img{ padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
+
 
 
 /* -----TESTING STUFF----- */

@@ -20,7 +20,9 @@
     #service_grid{display:grid;grid-template-columns: 1fr 1fr;font-size: 17px;}
     /*----*/
 
-
+    /*Missionary and Reception Pages Only */
+    #reception_return, #missionary_return{font-size:20px;}
+    /*----*/
 
     /* -----TESTING STUFF----- */
     body {background-color: orange;}
