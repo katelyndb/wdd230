@@ -1,0 +1,36 @@
+// select HTML elements in the document
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+const currHumid = document.querySelector('#humidity');
+const currFeel = document.querySelector('#feels_like');
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=38.9807&lon=-77.1003&appid=382e50f3d5abaf1c6e4fd4ef4b090650&units=imperial';
+async function apiFetch() {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data); // this is for testing the call
+        displayResults(data);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+function  displayResults(weatherData) {
+    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const desc = weatherData.weather[0].description;
+    const humidity = weatherData.main.humidity;
+    const feels = weatherData.main.feels_like.toFixed(0) ;
+    let temp = weatherData.main.temp.toFixed(0);
+  
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = desc;
+    currHumid.textContent = `${humidity}%`;
+    currFeel.textContent = `${feels}`;
+    currentTemp.textContent =`${temp}`;
+  } 
+apiFetch();
