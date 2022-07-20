@@ -56,7 +56,7 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 .content_box_dark {color:#ffffff}
 .main_img {border: #ffffff 2px solid;}
 .main_button {border: #ffffff 2px solid;background: linear-gradient(45deg, #969fce,  #F2F3F3);background-color: #e0e0e0;}
-#main_content_body {border: #A7B1E2 5px solid;}
+#main_content_body {border: #A7B1E2 5px solid; border-radius: 8px;}
 /*----*/
 
 
@@ -65,6 +65,11 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 
 
 /* Index Page Only */
+#home_big_temple {margin: 0 auto;}
+#home_big_img, #home_action_img  { padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
+#action_button {padding-top: 3%; padding-bottom: 3%; margin:0; color:#091D43; font-size: 23px;}
+
+
 
 /*----*/
 

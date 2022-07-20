@@ -16,7 +16,6 @@
 
 
     /* Main Formatting */
-    #main_content_body.index {display:grid; grid-template-columns: 1fr 1fr;}
     main{padding:12rem 20% 1% 20%;}
     /*----*/
 
@@ -27,6 +26,17 @@
     #foot_contact {border-left:2px solid #ffffff;}
     #googlemap {height:100%; width:100%; }
     /*----*/
+
+   /* Index Page Only */
+   #main_content_body.index {display:grid;}
+   #home_big_temple {grid-column: 1 / 3; grid-row: 1;}
+   #home_action {grid-column: 1 / 2; grid-row: 2 / 4;}
+   #home_info {grid-column: 2 / 3; grid-row: 2;}
+   #home_weather {grid-column: 2 / 3; grid-row: 3;}
+   #home_slide {grid-column: 1 / 3; grid-row: 4;}
+   #home_action {display:grid; grid-gap:2%;}
+   #action_button { font-size: 30px; display:block; }
+   /*----*/
 
 
 
