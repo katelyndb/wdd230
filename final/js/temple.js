@@ -1,5 +1,5 @@
 
-const temple_cards = document.querySelector('.temple_cards');
+const temple_cards = document.querySelector('.temple');
 var jsonurl = 'https://katelyndb.github.io/wdd230/final/temples.json';
 
 async function getTemples(requesturl) {
@@ -14,9 +14,12 @@ async function getTemples(requesturl) {
 }
 
 async function makeTempleCards(data) {
+    let color_iterator = 0;
     console.log(data);
     data.temples.forEach(temple => {
-    let card = document.createElement('section');
+    color_iterator = color_iterator + 1;
+    if (color_iterator > 2){color_iterator=0};
+    let card = document.createElement('div');
     let h2 = document.createElement('h2');
     let icon = document.createElement('img');
     let contact = document.createElement('p');
@@ -24,7 +27,9 @@ async function makeTempleCards(data) {
     let dedicated = document.createElement('p');
     let closure = document.createElement('p');
     h2.innerHTML = `${temple.name}`;
-    card.setAttribute = ('class', 'temple_card');
+    if (color_iterator == 0) {card.setAttribute = ('class', 'content_box_blue');}
+    else if (color_iterator == 1) {card.setAttribute = ('class', 'content_box_gray');}
+    else if (color_iterator == 2) {card.setAttribute = ('class', 'content_box_dark');};
     icon.setAttribute('src', temple.image);
     icon.setAttribute('alt', `Picture of  ${temple.name}`);
     icon.setAttribute('loading', 'lazy');
