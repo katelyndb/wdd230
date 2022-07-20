@@ -15,12 +15,14 @@ hr {border:0; border-top:2px solid; margin:5% 0;}
 
 /* Header Formatting */
 #nav_bar {position:static;justify-content: space-between; display: flex; padding-top: 2%; align-items: center;}
-#header_title{display:inline-flex; margin:0 0;}
-#header_title{position:relative; left: 3%;}
-.navigation li {list-style: none;background-color: #dfdfdf;display: none;}
+#header_title{display:inline-flex; margin:0 0;position:relative; left: 3%; font-size: 35px;text-align: center;padding-top: 2%;}
+.navigation li {list-style: none;background-color: #e0e0e0;display: none;}
 .navigation li:first-child {display: block;}
 .navigation a {display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
 .responsive li {display: block;}
+.social_img {width:auto;}
+#header_logo_image {display: block; margin-left: auto; margin-right: auto;}
+
 
 
 /* Footer Formatting */

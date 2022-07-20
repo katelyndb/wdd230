@@ -2,12 +2,15 @@
 
 
     /* Header Formatting */
-    #nav_bar {position:fixed; top: 0;right: 0;width: 100%; display: flex;justify-content: space-between;}
-    #header_logo {height: 100px;line-height: 100px;text-align: center;}
-    #header_title{position:relative; left: 3%; bottom:30%;}
-    .navigation li {list-style: none;background-color: #b092bd;display: block;}
+    #nav_bar {position:fixed; top: 0;right: 0;width: 100%; display: flex;justify-content: space-between; }
+    #header_title{ font-size: 43px; text-align: left; padding-top: 1%;}
+    #header_logo{display:grid; grid-template-columns: 1fr 1fr;}
+    .navigation li {list-style: none;background-color: #ffffff;display:inline-flex;}
     .navigation li:first-child {display: none;}
-    .navigation a {display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
+    .navigation a {display: flex;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
+    .social_media {width:auto;}
+    #header_logo_image {display: block;  margin-right: 5%;}
+    #header_title {display: block;position: relative;top: 25px; }
     /*----*/
 
 
