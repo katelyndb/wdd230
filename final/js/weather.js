@@ -4,7 +4,9 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const currHumid = document.querySelector('#humidity');
 const currFeel = document.querySelector('#feels_like');
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=38.9807&lon=-77.1003&appid=382e50f3d5abaf1c6e4fd4ef4b090650&units=imperial';
+const daily_url = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&appid=382e50f3d5abaf1c6e4fd4ef4b090650&units=imperial';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=38.98078&lon=-77.1003&appid=382e50f3d5abaf1c6e4fd4ef4b090650&units=imperial';
+
 async function apiFetch() {
     try {
       const response = await fetch(url);
@@ -25,7 +27,6 @@ function  displayResults(weatherData) {
     const humidity = weatherData.main.humidity;
     const feels = weatherData.main.feels_like.toFixed(0) ;
     let temp = weatherData.main.temp.toFixed(0);
-  
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
@@ -33,4 +34,31 @@ function  displayResults(weatherData) {
     currFeel.textContent = `${feels}`;
     currentTemp.textContent =`${temp}`;
   } 
+  async function secondApiFetch() {
+    try {
+      const response = await fetch(daily_url);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data); // this is for testing the call
+        displayDaily(data);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+function displayDaily(weatherData) {
+    let daily_section = document.querySelector('.daily_temps');
+    for (let i = 0; i < 4; i++) {
+        let daily = weatherData.daily[i].temp.day
+        let p = document.createElement('p');
+        p.innerHTML =`${daily}`;
+        daily_section.append(p);
+        
+      }
+}
 apiFetch();
+secondApiFetch();
+
+
