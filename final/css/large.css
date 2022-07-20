@@ -39,6 +39,19 @@
    
 
    /*----*/
+   
+   /*Reservation Page Only */
+    #submit_button {font-family: 'Gowun Dodum';font-size: 30px;}
+    #reserve_grid_holder {display:grid; grid-template-columns: 1fr 1fr;}
+    #personal_grid_holder {display:grid; grid-template-columns: 1fr 1fr;}
+    #room_choices{display:block;margin: auto;width: 50%;padding: 10px;}
+    #location_choices{display:block;margin: auto;width: 50%;padding: 10px;}
+    #personalinfo2 {border-left:2px solid #ffffff;padding-left:2%;}
+    label, textarea {display:block;margin: auto;width: 50%;padding: 10px;}
+    input:not(#las_vegas, #tonga,#chile,#tokyo, .room) {display:block; margin: auto;width: 50%;padding: 10px;}
+        
+    
+    /*----*/
 
 
 

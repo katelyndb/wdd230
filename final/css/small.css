@@ -73,7 +73,14 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 #humidity, #feels_like {font-size: 20px;}
 /*----*/
 
+/*Reservation Page Only */
+#submit_button {width: 100%;font-family: 'Gowun Dodum';font-size: 20px;}
+#reserve_grid_holder {display:block;}
+#personal_grid_holder {display:block;}
+label {padding: 2%; display:block;font-size: 18px;padding-bottom: 5%;}
+input {padding: 2%;}
 
+/*----*/
 
 /* Galaxy Fold issues */
 @media only screen and (max-width: 18em) {

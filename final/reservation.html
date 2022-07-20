@@ -40,10 +40,87 @@
     <!-- End Header-->
     <!-- Main -->
     <main>
-        <section id="main_content_body" class="index">
-            <div class="content_box_blue"><p>Here is the text</p></div>
-            
-              
+        <section id="main_content_body" class="reserve">
+            <form id="formGrid" action="thankyou.html" method="post">
+            <!--Personal Information-->
+            <div class="content_box_blue"><form class="w3-container w3-card-4">
+                    <input type="hidden" id="date" name="date" value="CurrentTime"> 
+                    <input type="hidden" id="time" name="time" value="CurrentDate">
+                    <div id="formpersonal">
+                        <h3>Personal Information</h3>
+                        <div id="personal_grid_holder">
+                        <div id="personalinfo1">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname" required>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required placeholder="janedoe@gmail.com">
+                        </div>
+                        <div id="personalinfo2">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="home">Home State or Country:</label>
+                            <input type="text" id="home" name="home" required placeholder="(GA/Georgia)(Norway) ">
+                            <label for="comment">Accomadations Needs or Other Comments:</label>
+                            <textarea type="text" id="comment" name="comment"></textarea>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <!--Reservation Information-->
+            <div id="formreserve" class="content_box_gray">
+                <h3>Reservation Information</h3>
+                    <div id="reserve_grid_holder">
+                    <div class="reservation_block">
+                        <h4><label for="room_choices">Rooms:</label></h4>
+                        <div id="room_choices">
+                            <div class="reserve_list">
+                                <input type="radio" class="room"name="membership" value="nonp">
+                                <b>Small Family</b>
+                                <ul>
+                                    <li>1 Main Bedroom</li>
+                                    <li>1 Medium Bedroom (3 beds)</li>
+                                </ul>
+                            </div>
+                            <div class="reserve_list">
+                                <input type="radio" class="room" id="nonp" name="membership" value="nonp">
+                                <b>Large Family</b>
+                                <ul>
+                                    <li>1 Main Bedroom</li>
+                                    <li>2 Small Bedroom (6 beds)</li>
+                                </ul>
+                            </div>
+                            <div class="reserve_list">
+                                <input type="radio"  class="room" name="membership" value="nonp">
+                                <b>Individual</b>
+                                <ul>
+                                    <li>1 Main Bedroom</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reservation_block">
+                            <h4><label for="location_choices">Location:</label></h4>
+                        <div id="location_choices">
+                            <input type="radio" id="las_vegas" name="location" value="Las Vegas Nevada">
+                            <b>Las Vegas Nevada</b><br>
+                            <input type="radio" id="tonga" name="location" value="Nuku'alofa Tonga">
+                            <b>Nuku'alofa Tonga</b><br>
+                            <input type="radio" id="chile" name="location" value="Concepcion Chile">
+                            <b>Concepcion Chile</b><br>
+                            <input type="radio" id="tokyo" name="location" value="Tokyo Japan">
+                            <b>Tokyo Japan</b>
+                            <br>
+                        </div>
+                            <label for="bdesc">Reservation Date:</label>
+                        <textarea id="bdesc" name="bdesc" required></textarea>
+                    </div>           
+            </div>
+            </div>
+            <!--Submit Button-->
+            <div id="form_submit" class="content_box_dark" ><input  class=" main_button "type="submit" id="submit_button" name="submitform" value="Place Reservation"></div>
+        </form>
         </section>
     </main>
     <!-- End Main -->
