@@ -98,7 +98,11 @@ input {padding: 2%;}
 #reception_return, #missionary_return{color:#091D43;font-size:18px;}
 #missionary_submit_button {font-size: 18px;font-family: 'Gowun Dodum';font-size: 18px;}
 #hotel_img{ padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
+/*----*/
 
+/*Temple Page Only */
+#main_content_body.temple {display:block; }
+/*----*/
 
 
 /* -----TESTING STUFF----- */

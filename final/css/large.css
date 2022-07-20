@@ -51,12 +51,14 @@
     label, textarea {display:block;margin: auto;width: 50%;padding: 10px;}
     input:not(#las_vegas, #tonga,#chile,#tokyo, .room) {display:block; margin: auto;width: 50%;padding: 10px;}
         
-    
     /*----*/
     /*Services Page Only */
     #service_grid{display:grid;grid-template-columns: 1fr 1fr;font-size: 25px;}
     #service_content_grid {display:grid;grid-template-columns: 2fr 1fr;}
     #reception_return, #missionary_return{font-size: 25px;}
+    /*----*/
+    /*Temple Page Only */
+    #main_content_body.temple {display:block;}
     /*----*/
 
     /*Missionary and Reception Pages Only */
