@@ -16,12 +16,13 @@ hr {border:0; border-top:2px solid; margin:5% 0;}
 /* Header Formatting */
 #nav_bar {position:static;justify-content: space-between; display: flex; padding-top: 2%; align-items: center;}
 #header_title{display:inline-flex; margin:0 0;position:relative; left: 3%; font-size: 35px;text-align: center;padding-top: 2%;}
-.navigation li {list-style: none;background-color: #e0e0e0;display: none;}
+.navigation li {list-style: none;display: none; }
 .navigation li:first-child {display: block;}
-.navigation a {display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
+.navigation a {border-radius: 8px;display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
 .responsive li {display: block;}
 .social_img {width:auto;}
 #header_logo_image {display: block; margin-left: auto; margin-right: auto;}
+
 
 
 
@@ -38,10 +39,11 @@ main{padding:1% 10% 1% 10%;}
 /*----*/
 
 /* Lovely Colors */
-footer{background:#A7B1E2; border-top:1px solid #ffffff;}
-#nav_bar{background:#A7B1E2; border-top:1px solid #ffffff;}
+footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
+#nav_bar{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
 #foot_copyright{background: #F2F3F3; background-clip: border-box;border: #969fce ridge ;}
 #foot_grid_holder{background: #A7B1E2;}
+.navigation a {box-shadow: 1px 2.5px 2px #888888;border: blue 3px solid;background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);background-color: #e0e0e0;}
 /*----*/
 
 
