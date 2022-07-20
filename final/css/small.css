@@ -1,7 +1,7 @@
 /* General Stuff */
 html {box-sizing: border-box;}
 body {font-family: 'Gowun Dodum', sans-serif; margin:0;}
-h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive; margin:2% 0;text-shadow: 0 0 2px #ffffff, 0 0 3px #969fce;}
+h1,h2,h3,h4 {font-family:'Glass Antiqua', cursive; margin:2% 0;}
 h1 {font-size: 45px;} h2 {font-size: 35px;} h3 {font-size: 25px;} h4 {font-size: 20px;}
 p {font-size: 17px;}
 hr {border:0; border-top:2px solid; margin:5% 0;}
@@ -16,29 +16,30 @@ hr {border:0; border-top:2px solid; margin:5% 0;}
 /* Header Formatting */
 #nav_bar {position:static;justify-content: space-between; display: flex; padding-top: 2%; align-items: center;}
 #header_title{display:inline-flex; margin:0 0;position:relative; left: 3%; font-size: 35px;text-align: center;padding-top: 2%;}
+#header_logo_image {display: block; margin-left: auto; margin-right: auto;border-radius: 8px;}
 .navigation li {list-style: none;display: none; }
 .navigation li:first-child {display: block;}
 .navigation a {border-radius: 8px;display: block;padding: .75rem;text-align: center;text-decoration: none;font-size: 22px;}
 .responsive li {display: block;}
 .social_img {width:auto;}
-#header_logo_image {display: block; margin-left: auto; margin-right: auto;border-radius: 8px;}
-
-
-
+/*----*/
 
 /* Footer Formatting */
 #foot_grid_holder {display:block; padding:2% 10% 4% 10%;}
 #foot_contact, #foot_googlemap {padding:4%;border:none;}
 #googlemap {height:75%;width:75%;}
 footer{max-height: 700px;padding:5% 0;width:100%;margin:0;box-sizing: border-box; display: block;}
+footer h3, footer h4 {text-shadow: 0 0 2px #ffffff, 0 0 3px #969fce;}
 /*----*/
 
-
 /* Main Formatting */
+#main_content_body.index {display:block;}
 main{padding:1% 10% 1% 10%;}
-.content_box_blue {background-color: #6886be;}
-.content_box_gray {background-color: #aaaaaa;}
-.content_box_dark {background-color: #091D43;}
+.content_box_dark, .content_box_gray, .content_box_blue {padding:1% 2%;border:  #ffffff 2px solid;}
+.main_img {border-radius: 8px;}
+.main_button {border-radius: 8px; display: block; padding: .75rem; text-align: center; text-decoration: none;}
+.main_list {list-style-type: circle;}
+
 /*----*/
 
 /* Lovely Colors */
@@ -49,10 +50,16 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 .navigation a {box-shadow: 1px 2.5px 2px #888888;border: #ffffff 2px solid;background: linear-gradient(45deg, #969fce,  #F2F3F3);background-color: #e0e0e0;}
 #header_logo_image{box-shadow: 1px 2.5px 2px #888888;border: #ffffff 2px solid;}
 #header_title{text-shadow: 0 0 3px #ffffff, 0 0 5px #969fce;}
-
+.content_box_blue {background-color: #6886be;}
+.content_box_gray {background-color: #aaaaaa;}
+.content_box_dark {background-color: #091D43;}
+.content_box_dark {color:#ffffff}
+.main_img {border: #ffffff 2px solid;}
+.main_button {border: #ffffff 2px solid;background: linear-gradient(45deg, #969fce,  #F2F3F3);background-color: #e0e0e0;}
+#main_content_body {border: #A7B1E2 5px solid;}
 /*----*/
 
-/* Two new colors introduced: #6886be #aaaaaa
+
 
 
 
@@ -71,8 +78,5 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 
 /* -----TESTING STUFF----- */
 body {background-color: yellow;}
-/*#nav_links{
-    background-image: url("https://katelyndb.github.io/wdd230/final/images/white-textured-min.jpg");background-color: #F2F3F3; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; } */
+
+    /* Two new colors introduced: #6886be #aaaaaa

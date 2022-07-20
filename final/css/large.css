@@ -16,6 +16,7 @@
 
 
     /* Main Formatting */
+    #main_content_body.index {display:grid; grid-template-columns: 1fr 1fr;}
     main{padding:12rem 20% 1% 20%;}
     /*----*/
 
