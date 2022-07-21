@@ -15,7 +15,7 @@
         "image": "https://katelyndb.github.io/wdd230/final/images/tonga.jpg",
         "services": "<ul class='main_list'> <li>No clothing rental available</li><li>No cafeteria available</li><li>Patron housing available</li><li>Distribution center nearby</li>",
         "dedicated": "9 August 19834 <br> <b>Rededicated</b> 4 November 2007",
-        "closure": "<h4>2022</h4><ul class='main_list'><li>Saturday, 8 October 2022</li><li>Saturday, 24 December 2022</li><li>Saturday, 31 December 2022</li></ul><h4>2023</h4><ul><li>Monday, 23 January 2023 - Monday, 6 February 2023</li><li>Monday, 3 July 2023 - Monday, 17 July 2023</li></ul>"
+        "closure": "<h4>2022</h4><ul class='main_list'><li>Saturday, 8 October 2022</li><li>Saturday, 24 December 2022</li><li>Saturday, 31 December 2022</li></ul><h4>2023</h4><ul class='main_list'><li>Monday, 23 January 2023 - Monday, 6 February 2023</li><li>Monday, 3 July 2023 - Monday, 17 July 2023</li></ul>"
     },
     {
         "name": "Concepción Chile Temple",
@@ -24,7 +24,7 @@
         "image": "https://katelyndb.github.io/wdd230/final/images/chile.jpg",
         "services": "<ul class='main_list'> <li>No clothing rental available</li><li>No cafeteria available</li><li>Patron housing available</li><li>Distribution center nearby</li>",
         "dedicated": "28 October 2018",
-        "closure": "<h4>2022</h4><ul><li>Saturday, 1 October 2022</li><li>Monday, 14 November 2022 - Monday, 28 November 2022</li><li>Saturday, 24 December 2022</li><li>Saturday, 31 December 2022</li></ul><h4>2023</h4><ul class='main_list'><li>Monday, 8 May 2023 - Monday, 22 May 2023</li><li>Monday, 6 November 2023 - Monday, 20 November 2023</li></ul>"
+        "closure": "<h4>2022</h4><ul class='main_list'><li>Saturday, 1 October 2022</li><li>Monday, 14 November 2022 - Monday, 28 November 2022</li><li>Saturday, 24 December 2022</li><li>Saturday, 31 December 2022</li></ul><h4>2023</h4><ul class='main_list'><li>Monday, 8 May 2023 - Monday, 22 May 2023</li><li>Monday, 6 November 2023 - Monday, 20 November 2023</li></ul>"
     },
     {
         "name": "Tokyo Japan Temple",
@@ -33,7 +33,7 @@
         "image": "https://katelyndb.github.io/wdd230/final/images/japan.jpg",
         "services": "<ul class='main_list'> <li>Clothing rental available</li><li>No cafeteria available</li><li>Patron housing available</li><li>Distribution center nearby</li>",
         "dedicated": "27 October 1980 <br> <b>Rededicated</b> 3 July 2022",
-        "closure": "<h4>2022</h4><ul><li>Saturday, 8 October 2022</li></ul><h4>2023</h4><ul><li>Saturday, 8 April 2023</li></ul>"
+        "closure": "<h4>2022</h4><ul class='main_list'><li>Saturday, 8 October 2022</li></ul><h4>2023</h4><ul class='main_list'><li>Saturday, 8 April 2023</li></ul>"
     }
     
     ]}    
