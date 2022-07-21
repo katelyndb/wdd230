@@ -71,6 +71,8 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 #home-slide{display: block;}
 #full_temp{font-size: 40px;}
 #humidity, #feels_like {font-size: 20px;}
+.daily_titles {display:grid;grid-template-columns: 1fr 1fr 1fr ; }
+.daily_temps {display:grid;grid-template-columns: 1fr 1fr 1fr ; }
 /*----*/
 
 /*Reservation Page Only */
@@ -98,6 +100,7 @@ input {padding: 2%;}
 #reception_return, #missionary_return{color:#091D43;font-size:18px;}
 #missionary_submit_button {font-size: 18px;font-family: 'Gowun Dodum';font-size: 18px;}
 #hotel_img{ padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
+#missionary_caption{display:none;}
 /*----*/
 
 /*Temple Page Only */
