@@ -108,13 +108,8 @@ input {padding: 2%;}
 /*Temple Page Only */
 
 #flower_img{ padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
-.temple_json_img{ padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%; flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;object-fit: cover;}
-.temple_img_holder{display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden};
+.temple_json_img{ padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%; flex-shrink: 0;min-width: 100%;min-height: 100%;object-fit: cover;}
+.temple_img_holder{display: flex;justify-content: center;align-items: center;overflow: hidden;}
 
 /*----*/
 

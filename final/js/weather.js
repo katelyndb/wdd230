@@ -60,7 +60,7 @@ function displayDaily(weatherData) {
         daily_temps.append(p);
 
 
-
+        /*
         //Weather Alerts
         let alert = document.querySelector('.weather_alert');
         //alert.textContent = weatherData.alerts.event, weatherData.alerts.tags;
@@ -68,10 +68,7 @@ function displayDaily(weatherData) {
           alert.style.display = 'none';
       }else{
         alert.style.display = 'none';
-      }
-        //
-
-        //
+      } */
         
       }
 
