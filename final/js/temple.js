@@ -29,7 +29,7 @@ async function makeTempleCards(data) {
 		let services = document.createElement('p');
 		let dedicated = document.createElement('p');
 		let closure = document.createElement('p');
-		let like_button = document.createElement('img')
+		let like_button = document.createElement('img');
 		h2.innerHTML = `${temple.name}`;
 		if (color_iterator == 0) {
 			card.setAttribute ('class', 'content_box_blue');
@@ -47,7 +47,7 @@ async function makeTempleCards(data) {
 		icon.setAttribute('loading', 'lazy');
 		icon.setAttribute('class', "main_img temple_json_img");
 		let picture_holder = document.createElement('div');
-		picture_holder.setAttribute('class', 'temple_img_holder')
+		picture_holder.setAttribute('class', 'temple_img_holder');
 		contact.innerHTML = `<h4>Address:</h4> ${temple.address} <br> <h4>Phone Number:</h4> ${temple.telephone}`;
 		services.innerHTML = `<h4>Services:</h4> ${temple.services}`;
 		dedicated.innerHTML = `<h4>Dedicated:</h4> ${temple.dedicated} `;
@@ -59,7 +59,7 @@ async function makeTempleCards(data) {
 		card.append(services);
 		card.append(closure);
 		card.append(like_button);
-		temple_cards.append(picture_holder)
+		temple_cards.append(picture_holder);
 		temple_cards.append(card);
 	});
 }

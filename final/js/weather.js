@@ -50,12 +50,12 @@ function displayDaily(weatherData) {
     let daily_titles = document.querySelector('.daily_titles');
     for (let i = 0; i < 3; i++) {
         const weekday_list = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-        weekday = new Date().getDay();
+        let weekday = new Date().getDay();
         let daily = weatherData.daily[i].temp.day;
         let h4 = document.createElement('h4');
         let p = document.createElement('p');
         p.innerHTML =`${daily}<span>&#8457;</span>`;
-        h4.innerHTML =`${weekday_list[weekday + i + 1]}`
+        h4.innerHTML =`${weekday_list[weekday + i + 1]}`;
         daily_titles.append(h4);
         daily_temps.append(p);
 
