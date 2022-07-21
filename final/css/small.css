@@ -102,6 +102,7 @@ input {padding: 2%;}
 
 /*Temple Page Only */
 #main_content_body.temple {display:block; }
+#flower_img{ padding: 0;display: block;margin: 0 auto;max-height: 100%;max-width: 100%;}
 /*----*/
 
 
