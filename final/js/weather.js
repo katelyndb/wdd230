@@ -7,18 +7,17 @@ const currFeel = document.querySelector('#feels_like');
 const daily_url = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&appid=382e50f3d5abaf1c6e4fd4ef4b090650&units=imperial';
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=38.98078&lon=-77.1003&appid=382e50f3d5abaf1c6e4fd4ef4b090650&units=imperial';
 
+
 async function apiFetch() {
     try {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
       }
     } catch (error) {
-        console.log(error);
     }
   }
 function  displayResults(weatherData) {
@@ -39,13 +38,11 @@ function  displayResults(weatherData) {
       const response = await fetch(daily_url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
         displayDaily(data);
       } else {
           throw Error(await response.text());
       }
     } catch (error) {
-        console.log(error);
     }
   }
 function displayDaily(weatherData) {
@@ -54,15 +51,31 @@ function displayDaily(weatherData) {
     for (let i = 0; i < 3; i++) {
         const weekday_list = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
         weekday = new Date().getDay();
-        let daily = weatherData.daily[i].temp.day
+        let daily = weatherData.daily[i].temp.day;
         let h4 = document.createElement('h4');
         let p = document.createElement('p');
-        p.innerHTML =`${daily}`;
+        p.innerHTML =`${daily}<span>&#8457;</span>`;
         h4.innerHTML =`${weekday_list[weekday + i + 1]}`
         daily_titles.append(h4);
         daily_temps.append(p);
+
+
+
+        //Weather Alerts
+        let alert = document.querySelector('.weather_alert');
+        //alert.textContent = weatherData.alerts.event, weatherData.alerts.tags;
+        if ( alert == "" ) {
+          alert.style.display = 'none';
+      }else{
+        alert.style.display = 'none';
+      }
+        //
+
+        //
         
       }
+
+      
 }
 apiFetch();
 secondApiFetch();

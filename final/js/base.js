@@ -10,3 +10,9 @@ function toggleMenu() {
 }
 //
 
+//Like System for Temples
+function toggleLike(x) {
+    x.classList.toggle("liked_img");
+  }
+
+
