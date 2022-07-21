@@ -40,7 +40,8 @@ async function makeTempleCards(data) {
 		icon.setAttribute('src', temple.image);
 		icon.setAttribute('alt', `Picture of  ${temple.name}`);
 		icon.setAttribute('loading', 'lazy');
-		icon.setAttribute('class', "main_img");
+		icon.setAttribute('class', "main_img temple_json_img");
+
 		contact.innerHTML = `<h4>Address:</h4> ${temple.address} <br> <h4>Phone Number:</h4> ${temple.telephone}`;
 		services.innerHTML = `<h4>Services:</h4> ${temple.services}`;
 		dedicated.innerHTML = `<h4>Dedicated:</h4> ${temple.dedicated} `;

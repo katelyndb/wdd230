@@ -59,7 +59,7 @@
     /*----*/
     /*Temple Page Only */
     #main_content_body.temple {display:block;}
-    .temple_container {display: grid; grid-template-columns: .7fr 1fr;}
+    .temple_container {display: block;}
     /*----*/
 
     /*Missionary and Reception Pages Only */
