@@ -74,7 +74,7 @@ footer{background:#A7B1E2; border-top:1px solid #ffffff; border-bottom:1px solid
 .daily_titles {display:grid;grid-template-columns: 1fr 1fr 1fr ; }
 .daily_temps {display:grid;grid-template-columns: 1fr 1fr 1fr ; }
 .like_button {background-color: #F2F3F3;height:70px;}
-.liked_img {content: url("images/heart_full.png");}
+.liked_img {content: url("https://katelyndb.github.io/wdd230/final/images/heart_full.png");}
 /*----*/
 
 /*Reservation Page Only */
